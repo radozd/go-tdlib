@@ -323,8 +323,8 @@ func (client *Client) Authorize() (AuthorizationState, error) {
 func (client *Client) sendTdLibParams() {
 	client.Send(UpdateData{
 		"@type": "setTdlibParameters",
-		"parameters": UpdateData{
-			"@type":                    "tdlibParameters",
+		//"parameters": UpdateData{
+		//	"@type":                    "tdlibParameters",
 			"use_test_dc":              client.Config.UseTestDataCenter,
 			"database_directory":       client.Config.DatabaseDirectory,
 			"files_directory":          client.Config.FileDirectory,
@@ -340,7 +340,7 @@ func (client *Client) sendTdLibParams() {
 			"application_version":      client.Config.ApplicationVersion,
 			"enable_storage_optimizer": client.Config.EnableStorageOptimizer,
 			"ignore_file_names":        client.Config.IgnoreFileNames,
-		},
+		//},
 	})
 }
 
