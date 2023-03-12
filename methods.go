@@ -737,7 +737,7 @@ func (client *Client) GetUserFullInfo(userID int64) (*UserFullInfo, error) {
 
 // GetBasicGroup Returns information about a basic group by its identifier. This is an offline request if the current user is not a bot
 // @param basicGroupID Basic group identifier
-func (client *Client) GetBasicGroup(basicGroupID int32) (*BasicGroup, error) {
+func (client *Client) GetBasicGroup(basicGroupID int64) (*BasicGroup, error) {
 	result, err := client.SendAndCatch(UpdateData{
 		"@type":          "getBasicGroup",
 		"basic_group_id": basicGroupID,
@@ -759,7 +759,7 @@ func (client *Client) GetBasicGroup(basicGroupID int32) (*BasicGroup, error) {
 
 // GetBasicGroupFullInfo Returns full information about a basic group by its identifier
 // @param basicGroupID Basic group identifier
-func (client *Client) GetBasicGroupFullInfo(basicGroupID int32) (*BasicGroupFullInfo, error) {
+func (client *Client) GetBasicGroupFullInfo(basicGroupID int64) (*BasicGroupFullInfo, error) {
 	result, err := client.SendAndCatch(UpdateData{
 		"@type":          "getBasicGroupFullInfo",
 		"basic_group_id": basicGroupID,
@@ -781,7 +781,7 @@ func (client *Client) GetBasicGroupFullInfo(basicGroupID int32) (*BasicGroupFull
 
 // GetSupergroup Returns information about a supergroup or a channel by its identifier. This is an offline request if the current user is not a bot
 // @param supergroupID Supergroup or channel identifier
-func (client *Client) GetSupergroup(supergroupID int32) (*Supergroup, error) {
+func (client *Client) GetSupergroup(supergroupID int64) (*Supergroup, error) {
 	result, err := client.SendAndCatch(UpdateData{
 		"@type":         "getSupergroup",
 		"supergroup_id": supergroupID,
@@ -803,7 +803,7 @@ func (client *Client) GetSupergroup(supergroupID int32) (*Supergroup, error) {
 
 // GetSupergroupFullInfo Returns full information about a supergroup or a channel by its identifier, cached for up to 1 minute
 // @param supergroupID Supergroup or channel identifier
-func (client *Client) GetSupergroupFullInfo(supergroupID int32) (*SupergroupFullInfo, error) {
+func (client *Client) GetSupergroupFullInfo(supergroupID int64) (*SupergroupFullInfo, error) {
 	result, err := client.SendAndCatch(UpdateData{
 		"@type":         "getSupergroupFullInfo",
 		"supergroup_id": supergroupID,
@@ -3548,7 +3548,7 @@ func (client *Client) CreatePrivateChat(userID int64, force bool) (*Chat, error)
 // CreateBasicGroupChat Returns an existing chat corresponding to a known basic group
 // @param basicGroupID Basic group identifier
 // @param force If true, the chat will be created without network request. In this case all information about the chat except its type, title and photo can be incorrect
-func (client *Client) CreateBasicGroupChat(basicGroupID int32, force bool) (*Chat, error) {
+func (client *Client) CreateBasicGroupChat(basicGroupID int64, force bool) (*Chat, error) {
 	result, err := client.SendAndCatch(UpdateData{
 		"@type":          "createBasicGroupChat",
 		"basic_group_id": basicGroupID,
@@ -3572,7 +3572,7 @@ func (client *Client) CreateBasicGroupChat(basicGroupID int32, force bool) (*Cha
 // CreateSupergroupChat Returns an existing chat corresponding to a known supergroup or channel
 // @param supergroupID Supergroup or channel identifier
 // @param force If true, the chat will be created without network request. In this case all information about the chat except its type, title and photo can be incorrect
-func (client *Client) CreateSupergroupChat(supergroupID int32, force bool) (*Chat, error) {
+func (client *Client) CreateSupergroupChat(supergroupID int64, force bool) (*Chat, error) {
 	result, err := client.SendAndCatch(UpdateData{
 		"@type":         "createSupergroupChat",
 		"supergroup_id": supergroupID,
@@ -6885,7 +6885,7 @@ func (client *Client) DisconnectAllWebsites() (*Ok, error) {
 // SetSupergroupUsername Changes the username of a supergroup or channel, requires owner privileges in the supergroup or channel
 // @param supergroupID Identifier of the supergroup or channel
 // @param username New value of the username. Use an empty string to remove the username
-func (client *Client) SetSupergroupUsername(supergroupID int32, username string) (*Ok, error) {
+func (client *Client) SetSupergroupUsername(supergroupID int64, username string) (*Ok, error) {
 	result, err := client.SendAndCatch(UpdateData{
 		"@type":         "setSupergroupUsername",
 		"supergroup_id": supergroupID,
@@ -6909,7 +6909,7 @@ func (client *Client) SetSupergroupUsername(supergroupID int32, username string)
 // SetSupergroupStickerSet Changes the sticker set of a supergroup; requires can_change_info administrator right
 // @param supergroupID Identifier of the supergroup
 // @param stickerSetID New value of the supergroup sticker set identifier. Use 0 to remove the supergroup sticker set
-func (client *Client) SetSupergroupStickerSet(supergroupID int32, stickerSetID JSONInt64) (*Ok, error) {
+func (client *Client) SetSupergroupStickerSet(supergroupID int64, stickerSetID JSONInt64) (*Ok, error) {
 	result, err := client.SendAndCatch(UpdateData{
 		"@type":          "setSupergroupStickerSet",
 		"supergroup_id":  supergroupID,
@@ -6933,7 +6933,7 @@ func (client *Client) SetSupergroupStickerSet(supergroupID int32, stickerSetID J
 // ToggleSupergroupSignMessages Toggles sender signatures messages sent in a channel; requires can_change_info administrator right
 // @param supergroupID Identifier of the channel
 // @param signMessages New value of sign_messages
-func (client *Client) ToggleSupergroupSignMessages(supergroupID int32, signMessages bool) (*Ok, error) {
+func (client *Client) ToggleSupergroupSignMessages(supergroupID int64, signMessages bool) (*Ok, error) {
 	result, err := client.SendAndCatch(UpdateData{
 		"@type":         "toggleSupergroupSignMessages",
 		"supergroup_id": supergroupID,
@@ -6957,7 +6957,7 @@ func (client *Client) ToggleSupergroupSignMessages(supergroupID int32, signMessa
 // ToggleSupergroupIsAllHistoryAvailable Toggles whether the message history of a supergroup is available to new members; requires can_change_info administrator right
 // @param supergroupID The identifier of the supergroup
 // @param isAllHistoryAvailable The new value of is_all_history_available
-func (client *Client) ToggleSupergroupIsAllHistoryAvailable(supergroupID int32, isAllHistoryAvailable bool) (*Ok, error) {
+func (client *Client) ToggleSupergroupIsAllHistoryAvailable(supergroupID int64, isAllHistoryAvailable bool) (*Ok, error) {
 	result, err := client.SendAndCatch(UpdateData{
 		"@type":                    "toggleSupergroupIsAllHistoryAvailable",
 		"supergroup_id":            supergroupID,
@@ -6982,7 +6982,7 @@ func (client *Client) ToggleSupergroupIsAllHistoryAvailable(supergroupID int32, 
 // @param supergroupID Supergroup identifier
 // @param userID User identifier
 // @param messageIDs Identifiers of messages sent in the supergroup by the user. This list must be non-empty
-func (client *Client) ReportSupergroupSpam(supergroupID int32, userID int64, messageIDs []int64) (*Ok, error) {
+func (client *Client) ReportSupergroupSpam(supergroupID int64, userID int64, messageIDs []int64) (*Ok, error) {
 	result, err := client.SendAndCatch(UpdateData{
 		"@type":         "reportSupergroupSpam",
 		"supergroup_id": supergroupID,
@@ -7009,7 +7009,7 @@ func (client *Client) ReportSupergroupSpam(supergroupID int32, userID int64, mes
 // @param filter The type of users to return. By default, supergroupMembersFilterRecent
 // @param offset Number of users to skip
 // @param limit The maximum number of users be returned; up to 200
-func (client *Client) GetSupergroupMembers(supergroupID int32, filter SupergroupMembersFilter, offset int32, limit int32) (*ChatMembers, error) {
+func (client *Client) GetSupergroupMembers(supergroupID int64, filter SupergroupMembersFilter, offset int32, limit int32) (*ChatMembers, error) {
 	result, err := client.SendAndCatch(UpdateData{
 		"@type":         "getSupergroupMembers",
 		"supergroup_id": supergroupID,

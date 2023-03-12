@@ -4,7 +4,8 @@ package tdlib
 //#cgo darwin CFLAGS: -I/usr/local/include
 //#cgo windows CFLAGS: -IC:/src/td -IC:/src/td/build
 //#cgo linux LDFLAGS: -L/usr/local/lib -ltdjson_static -ltdjson_private -ltdclient -ltdcore -ltdapi -ltdactor -ltddb -ltdsqlite -ltdnet -ltdutils -lc++ -lssl -lcrypto -ldl -lz -lm
-//#cgo darwin LDFLAGS: -L/usr/local/lib -L/usr/local/opt/openssl/lib -ltdjson_static -ltdjson_private -ltdclient -ltdcore -ltdapi -ltdactor -ltddb -ltdsqlite -ltdnet -ltdutils -lc++ -lssl -lcrypto -ldl -lz -lm
+//#cgo darwin,!arm64 LDFLAGS: -L/usr/local/lib -L/usr/local/opt/openssl/lib -ltdjson_static -ltdjson_private -ltdclient -ltdcore -ltdapi -ltdactor -ltddb -ltdsqlite -ltdnet -ltdutils -lc++ -lssl -lcrypto -ldl -lz -lm
+//#cgo darwin,arm64 LDFLAGS: -L/usr/local/lib -L/opt/homebrew/opt/openssl/lib -ltdjson_static -ltdjson_private -ltdclient -ltdcore -ltdapi -ltdactor -ltddb -ltdsqlite -ltdnet -ltdutils -lc++ -lssl -lcrypto -ldl -lz -lm
 //#cgo windows LDFLAGS: -LC:/src/td/build/Debug -ltdjson
 //#include <stdlib.h>
 //#include <td/telegram/td_json_client.h>
@@ -325,21 +326,21 @@ func (client *Client) sendTdLibParams() {
 		"@type": "setTdlibParameters",
 		//"parameters": UpdateData{
 		//	"@type":                    "tdlibParameters",
-			"use_test_dc":              client.Config.UseTestDataCenter,
-			"database_directory":       client.Config.DatabaseDirectory,
-			"files_directory":          client.Config.FileDirectory,
-			"use_file_database":        client.Config.UseFileDatabase,
-			"use_chat_info_database":   client.Config.UseChatInfoDatabase,
-			"use_message_database":     client.Config.UseMessageDatabase,
-			"use_secret_chats":         client.Config.UseSecretChats,
-			"api_id":                   client.Config.APIID,
-			"api_hash":                 client.Config.APIHash,
-			"system_language_code":     client.Config.SystemLanguageCode,
-			"device_model":             client.Config.DeviceModel,
-			"system_version":           client.Config.SystemVersion,
-			"application_version":      client.Config.ApplicationVersion,
-			"enable_storage_optimizer": client.Config.EnableStorageOptimizer,
-			"ignore_file_names":        client.Config.IgnoreFileNames,
+		"use_test_dc":              client.Config.UseTestDataCenter,
+		"database_directory":       client.Config.DatabaseDirectory,
+		"files_directory":          client.Config.FileDirectory,
+		"use_file_database":        client.Config.UseFileDatabase,
+		"use_chat_info_database":   client.Config.UseChatInfoDatabase,
+		"use_message_database":     client.Config.UseMessageDatabase,
+		"use_secret_chats":         client.Config.UseSecretChats,
+		"api_id":                   client.Config.APIID,
+		"api_hash":                 client.Config.APIHash,
+		"system_language_code":     client.Config.SystemLanguageCode,
+		"device_model":             client.Config.DeviceModel,
+		"system_version":           client.Config.SystemVersion,
+		"application_version":      client.Config.ApplicationVersion,
+		"enable_storage_optimizer": client.Config.EnableStorageOptimizer,
+		"ignore_file_names":        client.Config.IgnoreFileNames,
 		//},
 	})
 }

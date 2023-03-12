@@ -27,47 +27,24 @@ So you can use every single type and method in Tdlib.
 
 First of all you need to clone the Tdlib repo and build it:
 ```bash
-git clone git@github.com:tdlib/td.git --depth 1
+xcode-select --install
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install gperf cmake openssl
+git clone https://github.com/tdlib/td.git
 cd td
+rm -rf build
 mkdir build
 cd build
-cmake -DCMAKE_BUILD_TYPE=Release ..
-cmake --build . -- -j5
-make install
-
-# -j5 refers to number of your cpu cores + 1 for multi-threaded build.
+cmake -DCMAKE_BUILD_TYPE=Release -DOPENSSL_ROOT_DIR=/opt/homebrew/opt/openssl/ -DCMAKE_INSTALL_PREFIX:PATH=/usr/local ..
+cmake --build . --target install
+cd ..
+cd ..
+ls -l /usr/local
 ```
 
 If hit any build errors, refer to [Tdlib build instructions](https://github.com/tdlib/td#building)
-I'm using static linking against tdlib so it won't require to build the whole tdlib source files.
 
-## Docker
-You can use the prebuilt tdlib image and Go image of your liking:
-
-```
-FROM golang:1.15-alpine AS golang
-
-COPY --from=wcsiu/tdlib:1.7-alpine /usr/local/include/td /usr/local/include/td
-COPY --from=wcsiu/tdlib:1.7-alpine /usr/local/lib/libtd* /usr/local/lib/
-COPY --from=wcsiu/tdlib:1.7-alpine /usr/lib/libssl.a /usr/local/lib/libssl.a
-COPY --from=wcsiu/tdlib:1.7-alpine /usr/lib/libcrypto.a /usr/local/lib/libcrypto.a
-COPY --from=wcsiu/tdlib:1.7-alpine /lib/libz.a /usr/local/lib/libz.a
-RUN apk add build-base
-
-WORKDIR /myApp
-
-COPY . .
-
-RUN go build --ldflags "-extldflags '-static -L/usr/local/lib -ltdjson_static -ltdjson_private -ltdclient -ltdcore -ltdactor -ltddb -ltdsqlite -ltdnet -ltdutils -ldl -lm -lssl -lcrypto -lstdc++ -lz'" -o /tmp/getChats getChats.go
-
-FROM gcr.io/distroless/base:latest
-COPY --from=golang /tmp/getChats /getChats
-ENTRYPOINT [ "/getChats" ]
-```
-
-```
-$ docker build -fDockerfile -ttelegram-client .
-```
+This fork is modified to be built on Apple Silicon because of different homebrew path. 
 
 ## Example
 Here is a simple example for authorization and fetching updates:
@@ -77,7 +54,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/Arman92/go-tdlib"
+	"github.com/radozd/go-tdlib"
 )
 
 func main() {
