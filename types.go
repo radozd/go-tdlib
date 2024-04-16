@@ -1716,7 +1716,6 @@ func (ok *Ok) MessageType() string {
 }
 
 // NewOk creates a new Ok
-//
 func NewOk() *Ok {
 	okTemp := Ok{
 		tdCommon: tdCommon{Type: "ok"},
@@ -2136,7 +2135,6 @@ func (authorizationStateWaitTdlibParameters *AuthorizationStateWaitTdlibParamete
 }
 
 // NewAuthorizationStateWaitTdlibParameters creates a new AuthorizationStateWaitTdlibParameters
-//
 func NewAuthorizationStateWaitTdlibParameters() *AuthorizationStateWaitTdlibParameters {
 	authorizationStateWaitTdlibParametersTemp := AuthorizationStateWaitTdlibParameters{
 		tdCommon: tdCommon{Type: "authorizationStateWaitTdlibParameters"},
@@ -2189,7 +2187,6 @@ func (authorizationStateWaitPhoneNumber *AuthorizationStateWaitPhoneNumber) Mess
 }
 
 // NewAuthorizationStateWaitPhoneNumber creates a new AuthorizationStateWaitPhoneNumber
-//
 func NewAuthorizationStateWaitPhoneNumber() *AuthorizationStateWaitPhoneNumber {
 	authorizationStateWaitPhoneNumberTemp := AuthorizationStateWaitPhoneNumber{
 		tdCommon: tdCommon{Type: "authorizationStateWaitPhoneNumber"},
@@ -2332,7 +2329,6 @@ func (authorizationStateReady *AuthorizationStateReady) MessageType() string {
 }
 
 // NewAuthorizationStateReady creates a new AuthorizationStateReady
-//
 func NewAuthorizationStateReady() *AuthorizationStateReady {
 	authorizationStateReadyTemp := AuthorizationStateReady{
 		tdCommon: tdCommon{Type: "authorizationStateReady"},
@@ -2357,7 +2353,6 @@ func (authorizationStateLoggingOut *AuthorizationStateLoggingOut) MessageType() 
 }
 
 // NewAuthorizationStateLoggingOut creates a new AuthorizationStateLoggingOut
-//
 func NewAuthorizationStateLoggingOut() *AuthorizationStateLoggingOut {
 	authorizationStateLoggingOutTemp := AuthorizationStateLoggingOut{
 		tdCommon: tdCommon{Type: "authorizationStateLoggingOut"},
@@ -2382,7 +2377,6 @@ func (authorizationStateClosing *AuthorizationStateClosing) MessageType() string
 }
 
 // NewAuthorizationStateClosing creates a new AuthorizationStateClosing
-//
 func NewAuthorizationStateClosing() *AuthorizationStateClosing {
 	authorizationStateClosingTemp := AuthorizationStateClosing{
 		tdCommon: tdCommon{Type: "authorizationStateClosing"},
@@ -2407,7 +2401,6 @@ func (authorizationStateClosed *AuthorizationStateClosed) MessageType() string {
 }
 
 // NewAuthorizationStateClosed creates a new AuthorizationStateClosed
-//
 func NewAuthorizationStateClosed() *AuthorizationStateClosed {
 	authorizationStateClosedTemp := AuthorizationStateClosed{
 		tdCommon: tdCommon{Type: "authorizationStateClosed"},
@@ -2812,7 +2805,6 @@ func (thumbnailFormatJpeg *ThumbnailFormatJpeg) MessageType() string {
 }
 
 // NewThumbnailFormatJpeg creates a new ThumbnailFormatJpeg
-//
 func NewThumbnailFormatJpeg() *ThumbnailFormatJpeg {
 	thumbnailFormatJpegTemp := ThumbnailFormatJpeg{
 		tdCommon: tdCommon{Type: "thumbnailFormatJpeg"},
@@ -2837,7 +2829,6 @@ func (thumbnailFormatPng *ThumbnailFormatPng) MessageType() string {
 }
 
 // NewThumbnailFormatPng creates a new ThumbnailFormatPng
-//
 func NewThumbnailFormatPng() *ThumbnailFormatPng {
 	thumbnailFormatPngTemp := ThumbnailFormatPng{
 		tdCommon: tdCommon{Type: "thumbnailFormatPng"},
@@ -2862,7 +2853,6 @@ func (thumbnailFormatWebp *ThumbnailFormatWebp) MessageType() string {
 }
 
 // NewThumbnailFormatWebp creates a new ThumbnailFormatWebp
-//
 func NewThumbnailFormatWebp() *ThumbnailFormatWebp {
 	thumbnailFormatWebpTemp := ThumbnailFormatWebp{
 		tdCommon: tdCommon{Type: "thumbnailFormatWebp"},
@@ -2887,7 +2877,6 @@ func (thumbnailFormatGif *ThumbnailFormatGif) MessageType() string {
 }
 
 // NewThumbnailFormatGif creates a new ThumbnailFormatGif
-//
 func NewThumbnailFormatGif() *ThumbnailFormatGif {
 	thumbnailFormatGifTemp := ThumbnailFormatGif{
 		tdCommon: tdCommon{Type: "thumbnailFormatGif"},
@@ -2912,7 +2901,6 @@ func (thumbnailFormatTgs *ThumbnailFormatTgs) MessageType() string {
 }
 
 // NewThumbnailFormatTgs creates a new ThumbnailFormatTgs
-//
 func NewThumbnailFormatTgs() *ThumbnailFormatTgs {
 	thumbnailFormatTgsTemp := ThumbnailFormatTgs{
 		tdCommon: tdCommon{Type: "thumbnailFormatTgs"},
@@ -2937,7 +2925,6 @@ func (thumbnailFormatMpeg4 *ThumbnailFormatMpeg4) MessageType() string {
 }
 
 // NewThumbnailFormatMpeg4 creates a new ThumbnailFormatMpeg4
-//
 func NewThumbnailFormatMpeg4() *ThumbnailFormatMpeg4 {
 	thumbnailFormatMpeg4Temp := ThumbnailFormatMpeg4{
 		tdCommon: tdCommon{Type: "thumbnailFormatMpeg4"},
@@ -3023,7 +3010,6 @@ func (maskPointForehead *MaskPointForehead) MessageType() string {
 }
 
 // NewMaskPointForehead creates a new MaskPointForehead
-//
 func NewMaskPointForehead() *MaskPointForehead {
 	maskPointForeheadTemp := MaskPointForehead{
 		tdCommon: tdCommon{Type: "maskPointForehead"},
@@ -3048,7 +3034,6 @@ func (maskPointEyes *MaskPointEyes) MessageType() string {
 }
 
 // NewMaskPointEyes creates a new MaskPointEyes
-//
 func NewMaskPointEyes() *MaskPointEyes {
 	maskPointEyesTemp := MaskPointEyes{
 		tdCommon: tdCommon{Type: "maskPointEyes"},
@@ -3073,7 +3058,6 @@ func (maskPointMouth *MaskPointMouth) MessageType() string {
 }
 
 // NewMaskPointMouth creates a new MaskPointMouth
-//
 func NewMaskPointMouth() *MaskPointMouth {
 	maskPointMouthTemp := MaskPointMouth{
 		tdCommon: tdCommon{Type: "maskPointMouth"},
@@ -3098,7 +3082,6 @@ func (maskPointChin *MaskPointChin) MessageType() string {
 }
 
 // NewMaskPointChin creates a new MaskPointChin
-//
 func NewMaskPointChin() *MaskPointChin {
 	maskPointChinTemp := MaskPointChin{
 		tdCommon: tdCommon{Type: "maskPointChin"},
@@ -3918,7 +3901,6 @@ func (userTypeRegular *UserTypeRegular) MessageType() string {
 }
 
 // NewUserTypeRegular creates a new UserTypeRegular
-//
 func NewUserTypeRegular() *UserTypeRegular {
 	userTypeRegularTemp := UserTypeRegular{
 		tdCommon: tdCommon{Type: "userTypeRegular"},
@@ -3943,7 +3925,6 @@ func (userTypeDeleted *UserTypeDeleted) MessageType() string {
 }
 
 // NewUserTypeDeleted creates a new UserTypeDeleted
-//
 func NewUserTypeDeleted() *UserTypeDeleted {
 	userTypeDeletedTemp := UserTypeDeleted{
 		tdCommon: tdCommon{Type: "userTypeDeleted"},
@@ -4008,7 +3989,6 @@ func (userTypeUnknown *UserTypeUnknown) MessageType() string {
 }
 
 // NewUserTypeUnknown creates a new UserTypeUnknown
-//
 func NewUserTypeUnknown() *UserTypeUnknown {
 	userTypeUnknownTemp := UserTypeUnknown{
 		tdCommon: tdCommon{Type: "userTypeUnknown"},
@@ -4506,7 +4486,7 @@ func NewUserFullInfo(photo *ChatPhoto, isBlocked bool, canBeCalled bool, support
 type Users struct {
 	tdCommon
 	TotalCount int32   `json:"total_count"` // Approximate total count of users found
-	UserIDs    []int32 `json:"user_ids"`    // A list of user identifiers
+	UserIDs    []int64 `json:"user_ids"`    // A list of user identifiers
 }
 
 // MessageType return the string telegram-type of Users
@@ -4518,7 +4498,7 @@ func (users *Users) MessageType() string {
 //
 // @param totalCount Approximate total count of users found
 // @param userIDs A list of user identifiers
-func NewUsers(totalCount int32, userIDs []int32) *Users {
+func NewUsers(totalCount int32, userIDs []int64) *Users {
 	usersTemp := Users{
 		tdCommon:   tdCommon{Type: "users"},
 		TotalCount: totalCount,
@@ -4730,7 +4710,6 @@ func (chatMemberStatusMember *ChatMemberStatusMember) MessageType() string {
 }
 
 // NewChatMemberStatusMember creates a new ChatMemberStatusMember
-//
 func NewChatMemberStatusMember() *ChatMemberStatusMember {
 	chatMemberStatusMemberTemp := ChatMemberStatusMember{
 		tdCommon: tdCommon{Type: "chatMemberStatusMember"},
@@ -4789,7 +4768,6 @@ func (chatMemberStatusLeft *ChatMemberStatusLeft) MessageType() string {
 }
 
 // NewChatMemberStatusLeft creates a new ChatMemberStatusLeft
-//
 func NewChatMemberStatusLeft() *ChatMemberStatusLeft {
 	chatMemberStatusLeftTemp := ChatMemberStatusLeft{
 		tdCommon: tdCommon{Type: "chatMemberStatusLeft"},
@@ -4934,7 +4912,6 @@ func (chatMembersFilterContacts *ChatMembersFilterContacts) MessageType() string
 }
 
 // NewChatMembersFilterContacts creates a new ChatMembersFilterContacts
-//
 func NewChatMembersFilterContacts() *ChatMembersFilterContacts {
 	chatMembersFilterContactsTemp := ChatMembersFilterContacts{
 		tdCommon: tdCommon{Type: "chatMembersFilterContacts"},
@@ -4959,7 +4936,6 @@ func (chatMembersFilterAdministrators *ChatMembersFilterAdministrators) MessageT
 }
 
 // NewChatMembersFilterAdministrators creates a new ChatMembersFilterAdministrators
-//
 func NewChatMembersFilterAdministrators() *ChatMembersFilterAdministrators {
 	chatMembersFilterAdministratorsTemp := ChatMembersFilterAdministrators{
 		tdCommon: tdCommon{Type: "chatMembersFilterAdministrators"},
@@ -4984,7 +4960,6 @@ func (chatMembersFilterMembers *ChatMembersFilterMembers) MessageType() string {
 }
 
 // NewChatMembersFilterMembers creates a new ChatMembersFilterMembers
-//
 func NewChatMembersFilterMembers() *ChatMembersFilterMembers {
 	chatMembersFilterMembersTemp := ChatMembersFilterMembers{
 		tdCommon: tdCommon{Type: "chatMembersFilterMembers"},
@@ -5037,7 +5012,6 @@ func (chatMembersFilterRestricted *ChatMembersFilterRestricted) MessageType() st
 }
 
 // NewChatMembersFilterRestricted creates a new ChatMembersFilterRestricted
-//
 func NewChatMembersFilterRestricted() *ChatMembersFilterRestricted {
 	chatMembersFilterRestrictedTemp := ChatMembersFilterRestricted{
 		tdCommon: tdCommon{Type: "chatMembersFilterRestricted"},
@@ -5062,7 +5036,6 @@ func (chatMembersFilterBanned *ChatMembersFilterBanned) MessageType() string {
 }
 
 // NewChatMembersFilterBanned creates a new ChatMembersFilterBanned
-//
 func NewChatMembersFilterBanned() *ChatMembersFilterBanned {
 	chatMembersFilterBannedTemp := ChatMembersFilterBanned{
 		tdCommon: tdCommon{Type: "chatMembersFilterBanned"},
@@ -5087,7 +5060,6 @@ func (chatMembersFilterBots *ChatMembersFilterBots) MessageType() string {
 }
 
 // NewChatMembersFilterBots creates a new ChatMembersFilterBots
-//
 func NewChatMembersFilterBots() *ChatMembersFilterBots {
 	chatMembersFilterBotsTemp := ChatMembersFilterBots{
 		tdCommon: tdCommon{Type: "chatMembersFilterBots"},
@@ -5112,7 +5084,6 @@ func (supergroupMembersFilterRecent *SupergroupMembersFilterRecent) MessageType(
 }
 
 // NewSupergroupMembersFilterRecent creates a new SupergroupMembersFilterRecent
-//
 func NewSupergroupMembersFilterRecent() *SupergroupMembersFilterRecent {
 	supergroupMembersFilterRecentTemp := SupergroupMembersFilterRecent{
 		tdCommon: tdCommon{Type: "supergroupMembersFilterRecent"},
@@ -5165,7 +5136,6 @@ func (supergroupMembersFilterAdministrators *SupergroupMembersFilterAdministrato
 }
 
 // NewSupergroupMembersFilterAdministrators creates a new SupergroupMembersFilterAdministrators
-//
 func NewSupergroupMembersFilterAdministrators() *SupergroupMembersFilterAdministrators {
 	supergroupMembersFilterAdministratorsTemp := SupergroupMembersFilterAdministrators{
 		tdCommon: tdCommon{Type: "supergroupMembersFilterAdministrators"},
@@ -5305,7 +5275,6 @@ func (supergroupMembersFilterBots *SupergroupMembersFilterBots) MessageType() st
 }
 
 // NewSupergroupMembersFilterBots creates a new SupergroupMembersFilterBots
-//
 func NewSupergroupMembersFilterBots() *SupergroupMembersFilterBots {
 	supergroupMembersFilterBotsTemp := SupergroupMembersFilterBots{
 		tdCommon: tdCommon{Type: "supergroupMembersFilterBots"},
@@ -5831,7 +5800,6 @@ func (secretChatStatePending *SecretChatStatePending) MessageType() string {
 }
 
 // NewSecretChatStatePending creates a new SecretChatStatePending
-//
 func NewSecretChatStatePending() *SecretChatStatePending {
 	secretChatStatePendingTemp := SecretChatStatePending{
 		tdCommon: tdCommon{Type: "secretChatStatePending"},
@@ -5856,7 +5824,6 @@ func (secretChatStateReady *SecretChatStateReady) MessageType() string {
 }
 
 // NewSecretChatStateReady creates a new SecretChatStateReady
-//
 func NewSecretChatStateReady() *SecretChatStateReady {
 	secretChatStateReadyTemp := SecretChatStateReady{
 		tdCommon: tdCommon{Type: "secretChatStateReady"},
@@ -5881,7 +5848,6 @@ func (secretChatStateClosed *SecretChatStateClosed) MessageType() string {
 }
 
 // NewSecretChatStateClosed creates a new SecretChatStateClosed
-//
 func NewSecretChatStateClosed() *SecretChatStateClosed {
 	secretChatStateClosedTemp := SecretChatStateClosed{
 		tdCommon: tdCommon{Type: "secretChatStateClosed"},
@@ -6319,11 +6285,11 @@ func (messageInteractionInfo *MessageInteractionInfo) MessageType() string {
 // UnmarshalJSON unmarshal to json
 func (messageReplyInfo *MessageReplyInfo) UnmarshalJSON(data []byte) error {
 	var tmp struct {
-		ReplyCount              int32             `json:"reply_count"`
+		ReplyCount              int32              `json:"reply_count"`
 		RecentRepliers          []*json.RawMessage `json:"recent_repliers"`
-		LastReadInboxMessageId  int64             `json:"last_read_inbox_message_id"`
-		LastReadOutboxMessageId int64             `json:"last_read_outbox_message_id"`
-		LastMessageId           int64             `json:"last_message_id"`
+		LastReadInboxMessageId  int64              `json:"last_read_inbox_message_id"`
+		LastReadOutboxMessageId int64              `json:"last_read_outbox_message_id"`
+		LastMessageId           int64              `json:"last_message_id"`
 	}
 
 	err := json.Unmarshal(data, &tmp)
@@ -6369,7 +6335,6 @@ func (messageSendingStatePending *MessageSendingStatePending) MessageType() stri
 }
 
 // NewMessageSendingStatePending creates a new MessageSendingStatePending
-//
 func NewMessageSendingStatePending() *MessageSendingStatePending {
 	messageSendingStatePendingTemp := MessageSendingStatePending{
 		tdCommon: tdCommon{Type: "messageSendingStatePending"},
@@ -6682,7 +6647,6 @@ func (notificationSettingsScopePrivateChats *NotificationSettingsScopePrivateCha
 }
 
 // NewNotificationSettingsScopePrivateChats creates a new NotificationSettingsScopePrivateChats
-//
 func NewNotificationSettingsScopePrivateChats() *NotificationSettingsScopePrivateChats {
 	notificationSettingsScopePrivateChatsTemp := NotificationSettingsScopePrivateChats{
 		tdCommon: tdCommon{Type: "notificationSettingsScopePrivateChats"},
@@ -6707,7 +6671,6 @@ func (notificationSettingsScopeGroupChats *NotificationSettingsScopeGroupChats) 
 }
 
 // NewNotificationSettingsScopeGroupChats creates a new NotificationSettingsScopeGroupChats
-//
 func NewNotificationSettingsScopeGroupChats() *NotificationSettingsScopeGroupChats {
 	notificationSettingsScopeGroupChatsTemp := NotificationSettingsScopeGroupChats{
 		tdCommon: tdCommon{Type: "notificationSettingsScopeGroupChats"},
@@ -6732,7 +6695,6 @@ func (notificationSettingsScopeChannelChats *NotificationSettingsScopeChannelCha
 }
 
 // NewNotificationSettingsScopeChannelChats creates a new NotificationSettingsScopeChannelChats
-//
 func NewNotificationSettingsScopeChannelChats() *NotificationSettingsScopeChannelChats {
 	notificationSettingsScopeChannelChatsTemp := NotificationSettingsScopeChannelChats{
 		tdCommon: tdCommon{Type: "notificationSettingsScopeChannelChats"},
@@ -7154,7 +7116,6 @@ func (chatListMain *ChatListMain) MessageType() string {
 }
 
 // NewChatListMain creates a new ChatListMain
-//
 func NewChatListMain() *ChatListMain {
 	chatListMainTemp := ChatListMain{
 		tdCommon: tdCommon{Type: "chatListMain"},
@@ -7179,7 +7140,6 @@ func (chatListArchive *ChatListArchive) MessageType() string {
 }
 
 // NewChatListArchive creates a new ChatListArchive
-//
 func NewChatListArchive() *ChatListArchive {
 	chatListArchiveTemp := ChatListArchive{
 		tdCommon: tdCommon{Type: "chatListArchive"},
@@ -7255,7 +7215,6 @@ func (chatSourceMtprotoProxy *ChatSourceMtprotoProxy) MessageType() string {
 }
 
 // NewChatSourceMtprotoProxy creates a new ChatSourceMtprotoProxy
-//
 func NewChatSourceMtprotoProxy() *ChatSourceMtprotoProxy {
 	chatSourceMtprotoProxyTemp := ChatSourceMtprotoProxy{
 		tdCommon: tdCommon{Type: "chatSourceMtprotoProxy"},
@@ -7619,7 +7578,6 @@ func (publicChatTypeHasUsername *PublicChatTypeHasUsername) MessageType() string
 }
 
 // NewPublicChatTypeHasUsername creates a new PublicChatTypeHasUsername
-//
 func NewPublicChatTypeHasUsername() *PublicChatTypeHasUsername {
 	publicChatTypeHasUsernameTemp := PublicChatTypeHasUsername{
 		tdCommon: tdCommon{Type: "publicChatTypeHasUsername"},
@@ -7644,7 +7602,6 @@ func (publicChatTypeIsLocationBased *PublicChatTypeIsLocationBased) MessageType(
 }
 
 // NewPublicChatTypeIsLocationBased creates a new PublicChatTypeIsLocationBased
-//
 func NewPublicChatTypeIsLocationBased() *PublicChatTypeIsLocationBased {
 	publicChatTypeIsLocationBasedTemp := PublicChatTypeIsLocationBased{
 		tdCommon: tdCommon{Type: "publicChatTypeIsLocationBased"},
@@ -7697,7 +7654,6 @@ func (chatActionBarReportUnrelatedLocation *ChatActionBarReportUnrelatedLocation
 }
 
 // NewChatActionBarReportUnrelatedLocation creates a new ChatActionBarReportUnrelatedLocation
-//
 func NewChatActionBarReportUnrelatedLocation() *ChatActionBarReportUnrelatedLocation {
 	chatActionBarReportUnrelatedLocationTemp := ChatActionBarReportUnrelatedLocation{
 		tdCommon: tdCommon{Type: "chatActionBarReportUnrelatedLocation"},
@@ -7722,7 +7678,6 @@ func (chatActionBarInviteMembers *ChatActionBarInviteMembers) MessageType() stri
 }
 
 // NewChatActionBarInviteMembers creates a new ChatActionBarInviteMembers
-//
 func NewChatActionBarInviteMembers() *ChatActionBarInviteMembers {
 	chatActionBarInviteMembersTemp := ChatActionBarInviteMembers{
 		tdCommon: tdCommon{Type: "chatActionBarInviteMembers"},
@@ -7778,7 +7733,6 @@ func (chatActionBarAddContact *ChatActionBarAddContact) MessageType() string {
 }
 
 // NewChatActionBarAddContact creates a new ChatActionBarAddContact
-//
 func NewChatActionBarAddContact() *ChatActionBarAddContact {
 	chatActionBarAddContactTemp := ChatActionBarAddContact{
 		tdCommon: tdCommon{Type: "chatActionBarAddContact"},
@@ -7803,7 +7757,6 @@ func (chatActionBarSharePhoneNumber *ChatActionBarSharePhoneNumber) MessageType(
 }
 
 // NewChatActionBarSharePhoneNumber creates a new ChatActionBarSharePhoneNumber
-//
 func NewChatActionBarSharePhoneNumber() *ChatActionBarSharePhoneNumber {
 	chatActionBarSharePhoneNumberTemp := ChatActionBarSharePhoneNumber{
 		tdCommon: tdCommon{Type: "chatActionBarSharePhoneNumber"},
@@ -7828,7 +7781,6 @@ func (keyboardButtonTypeText *KeyboardButtonTypeText) MessageType() string {
 }
 
 // NewKeyboardButtonTypeText creates a new KeyboardButtonTypeText
-//
 func NewKeyboardButtonTypeText() *KeyboardButtonTypeText {
 	keyboardButtonTypeTextTemp := KeyboardButtonTypeText{
 		tdCommon: tdCommon{Type: "keyboardButtonTypeText"},
@@ -7853,7 +7805,6 @@ func (keyboardButtonTypeRequestPhoneNumber *KeyboardButtonTypeRequestPhoneNumber
 }
 
 // NewKeyboardButtonTypeRequestPhoneNumber creates a new KeyboardButtonTypeRequestPhoneNumber
-//
 func NewKeyboardButtonTypeRequestPhoneNumber() *KeyboardButtonTypeRequestPhoneNumber {
 	keyboardButtonTypeRequestPhoneNumberTemp := KeyboardButtonTypeRequestPhoneNumber{
 		tdCommon: tdCommon{Type: "keyboardButtonTypeRequestPhoneNumber"},
@@ -7878,7 +7829,6 @@ func (keyboardButtonTypeRequestLocation *KeyboardButtonTypeRequestLocation) Mess
 }
 
 // NewKeyboardButtonTypeRequestLocation creates a new KeyboardButtonTypeRequestLocation
-//
 func NewKeyboardButtonTypeRequestLocation() *KeyboardButtonTypeRequestLocation {
 	keyboardButtonTypeRequestLocationTemp := KeyboardButtonTypeRequestLocation{
 		tdCommon: tdCommon{Type: "keyboardButtonTypeRequestLocation"},
@@ -8104,7 +8054,6 @@ func (inlineKeyboardButtonTypeCallbackGame *InlineKeyboardButtonTypeCallbackGame
 }
 
 // NewInlineKeyboardButtonTypeCallbackGame creates a new InlineKeyboardButtonTypeCallbackGame
-//
 func NewInlineKeyboardButtonTypeCallbackGame() *InlineKeyboardButtonTypeCallbackGame {
 	inlineKeyboardButtonTypeCallbackGameTemp := InlineKeyboardButtonTypeCallbackGame{
 		tdCommon: tdCommon{Type: "inlineKeyboardButtonTypeCallbackGame"},
@@ -8160,7 +8109,6 @@ func (inlineKeyboardButtonTypeBuy *InlineKeyboardButtonTypeBuy) MessageType() st
 }
 
 // NewInlineKeyboardButtonTypeBuy creates a new InlineKeyboardButtonTypeBuy
-//
 func NewInlineKeyboardButtonTypeBuy() *InlineKeyboardButtonTypeBuy {
 	inlineKeyboardButtonTypeBuyTemp := InlineKeyboardButtonTypeBuy{
 		tdCommon: tdCommon{Type: "inlineKeyboardButtonTypeBuy"},
@@ -9360,7 +9308,6 @@ func (pageBlockHorizontalAlignmentLeft *PageBlockHorizontalAlignmentLeft) Messag
 }
 
 // NewPageBlockHorizontalAlignmentLeft creates a new PageBlockHorizontalAlignmentLeft
-//
 func NewPageBlockHorizontalAlignmentLeft() *PageBlockHorizontalAlignmentLeft {
 	pageBlockHorizontalAlignmentLeftTemp := PageBlockHorizontalAlignmentLeft{
 		tdCommon: tdCommon{Type: "pageBlockHorizontalAlignmentLeft"},
@@ -9385,7 +9332,6 @@ func (pageBlockHorizontalAlignmentCenter *PageBlockHorizontalAlignmentCenter) Me
 }
 
 // NewPageBlockHorizontalAlignmentCenter creates a new PageBlockHorizontalAlignmentCenter
-//
 func NewPageBlockHorizontalAlignmentCenter() *PageBlockHorizontalAlignmentCenter {
 	pageBlockHorizontalAlignmentCenterTemp := PageBlockHorizontalAlignmentCenter{
 		tdCommon: tdCommon{Type: "pageBlockHorizontalAlignmentCenter"},
@@ -9410,7 +9356,6 @@ func (pageBlockHorizontalAlignmentRight *PageBlockHorizontalAlignmentRight) Mess
 }
 
 // NewPageBlockHorizontalAlignmentRight creates a new PageBlockHorizontalAlignmentRight
-//
 func NewPageBlockHorizontalAlignmentRight() *PageBlockHorizontalAlignmentRight {
 	pageBlockHorizontalAlignmentRightTemp := PageBlockHorizontalAlignmentRight{
 		tdCommon: tdCommon{Type: "pageBlockHorizontalAlignmentRight"},
@@ -9435,7 +9380,6 @@ func (pageBlockVerticalAlignmentTop *PageBlockVerticalAlignmentTop) MessageType(
 }
 
 // NewPageBlockVerticalAlignmentTop creates a new PageBlockVerticalAlignmentTop
-//
 func NewPageBlockVerticalAlignmentTop() *PageBlockVerticalAlignmentTop {
 	pageBlockVerticalAlignmentTopTemp := PageBlockVerticalAlignmentTop{
 		tdCommon: tdCommon{Type: "pageBlockVerticalAlignmentTop"},
@@ -9460,7 +9404,6 @@ func (pageBlockVerticalAlignmentMiddle *PageBlockVerticalAlignmentMiddle) Messag
 }
 
 // NewPageBlockVerticalAlignmentMiddle creates a new PageBlockVerticalAlignmentMiddle
-//
 func NewPageBlockVerticalAlignmentMiddle() *PageBlockVerticalAlignmentMiddle {
 	pageBlockVerticalAlignmentMiddleTemp := PageBlockVerticalAlignmentMiddle{
 		tdCommon: tdCommon{Type: "pageBlockVerticalAlignmentMiddle"},
@@ -9485,7 +9428,6 @@ func (pageBlockVerticalAlignmentBottom *PageBlockVerticalAlignmentBottom) Messag
 }
 
 // NewPageBlockVerticalAlignmentBottom creates a new PageBlockVerticalAlignmentBottom
-//
 func NewPageBlockVerticalAlignmentBottom() *PageBlockVerticalAlignmentBottom {
 	pageBlockVerticalAlignmentBottomTemp := PageBlockVerticalAlignmentBottom{
 		tdCommon: tdCommon{Type: "pageBlockVerticalAlignmentBottom"},
@@ -10091,7 +10033,6 @@ func (pageBlockDivider *PageBlockDivider) MessageType() string {
 }
 
 // NewPageBlockDivider creates a new PageBlockDivider
-//
 func NewPageBlockDivider() *PageBlockDivider {
 	pageBlockDividerTemp := PageBlockDivider{
 		tdCommon: tdCommon{Type: "pageBlockDivider"},
@@ -11677,7 +11618,6 @@ func (passportElementTypePersonalDetails *PassportElementTypePersonalDetails) Me
 }
 
 // NewPassportElementTypePersonalDetails creates a new PassportElementTypePersonalDetails
-//
 func NewPassportElementTypePersonalDetails() *PassportElementTypePersonalDetails {
 	passportElementTypePersonalDetailsTemp := PassportElementTypePersonalDetails{
 		tdCommon: tdCommon{Type: "passportElementTypePersonalDetails"},
@@ -11702,7 +11642,6 @@ func (passportElementTypePassport *PassportElementTypePassport) MessageType() st
 }
 
 // NewPassportElementTypePassport creates a new PassportElementTypePassport
-//
 func NewPassportElementTypePassport() *PassportElementTypePassport {
 	passportElementTypePassportTemp := PassportElementTypePassport{
 		tdCommon: tdCommon{Type: "passportElementTypePassport"},
@@ -11727,7 +11666,6 @@ func (passportElementTypeDriverLicense *PassportElementTypeDriverLicense) Messag
 }
 
 // NewPassportElementTypeDriverLicense creates a new PassportElementTypeDriverLicense
-//
 func NewPassportElementTypeDriverLicense() *PassportElementTypeDriverLicense {
 	passportElementTypeDriverLicenseTemp := PassportElementTypeDriverLicense{
 		tdCommon: tdCommon{Type: "passportElementTypeDriverLicense"},
@@ -11752,7 +11690,6 @@ func (passportElementTypeIDentityCard *PassportElementTypeIDentityCard) MessageT
 }
 
 // NewPassportElementTypeIDentityCard creates a new PassportElementTypeIDentityCard
-//
 func NewPassportElementTypeIDentityCard() *PassportElementTypeIDentityCard {
 	passportElementTypeIDentityCardTemp := PassportElementTypeIDentityCard{
 		tdCommon: tdCommon{Type: "passportElementTypeIdentityCard"},
@@ -11777,7 +11714,6 @@ func (passportElementTypeInternalPassport *PassportElementTypeInternalPassport) 
 }
 
 // NewPassportElementTypeInternalPassport creates a new PassportElementTypeInternalPassport
-//
 func NewPassportElementTypeInternalPassport() *PassportElementTypeInternalPassport {
 	passportElementTypeInternalPassportTemp := PassportElementTypeInternalPassport{
 		tdCommon: tdCommon{Type: "passportElementTypeInternalPassport"},
@@ -11802,7 +11738,6 @@ func (passportElementTypeAddress *PassportElementTypeAddress) MessageType() stri
 }
 
 // NewPassportElementTypeAddress creates a new PassportElementTypeAddress
-//
 func NewPassportElementTypeAddress() *PassportElementTypeAddress {
 	passportElementTypeAddressTemp := PassportElementTypeAddress{
 		tdCommon: tdCommon{Type: "passportElementTypeAddress"},
@@ -11827,7 +11762,6 @@ func (passportElementTypeUtilityBill *PassportElementTypeUtilityBill) MessageTyp
 }
 
 // NewPassportElementTypeUtilityBill creates a new PassportElementTypeUtilityBill
-//
 func NewPassportElementTypeUtilityBill() *PassportElementTypeUtilityBill {
 	passportElementTypeUtilityBillTemp := PassportElementTypeUtilityBill{
 		tdCommon: tdCommon{Type: "passportElementTypeUtilityBill"},
@@ -11852,7 +11786,6 @@ func (passportElementTypeBankStatement *PassportElementTypeBankStatement) Messag
 }
 
 // NewPassportElementTypeBankStatement creates a new PassportElementTypeBankStatement
-//
 func NewPassportElementTypeBankStatement() *PassportElementTypeBankStatement {
 	passportElementTypeBankStatementTemp := PassportElementTypeBankStatement{
 		tdCommon: tdCommon{Type: "passportElementTypeBankStatement"},
@@ -11877,7 +11810,6 @@ func (passportElementTypeRentalAgreement *PassportElementTypeRentalAgreement) Me
 }
 
 // NewPassportElementTypeRentalAgreement creates a new PassportElementTypeRentalAgreement
-//
 func NewPassportElementTypeRentalAgreement() *PassportElementTypeRentalAgreement {
 	passportElementTypeRentalAgreementTemp := PassportElementTypeRentalAgreement{
 		tdCommon: tdCommon{Type: "passportElementTypeRentalAgreement"},
@@ -11902,7 +11834,6 @@ func (passportElementTypePassportRegistration *PassportElementTypePassportRegist
 }
 
 // NewPassportElementTypePassportRegistration creates a new PassportElementTypePassportRegistration
-//
 func NewPassportElementTypePassportRegistration() *PassportElementTypePassportRegistration {
 	passportElementTypePassportRegistrationTemp := PassportElementTypePassportRegistration{
 		tdCommon: tdCommon{Type: "passportElementTypePassportRegistration"},
@@ -11927,7 +11858,6 @@ func (passportElementTypeTemporaryRegistration *PassportElementTypeTemporaryRegi
 }
 
 // NewPassportElementTypeTemporaryRegistration creates a new PassportElementTypeTemporaryRegistration
-//
 func NewPassportElementTypeTemporaryRegistration() *PassportElementTypeTemporaryRegistration {
 	passportElementTypeTemporaryRegistrationTemp := PassportElementTypeTemporaryRegistration{
 		tdCommon: tdCommon{Type: "passportElementTypeTemporaryRegistration"},
@@ -11952,7 +11882,6 @@ func (passportElementTypePhoneNumber *PassportElementTypePhoneNumber) MessageTyp
 }
 
 // NewPassportElementTypePhoneNumber creates a new PassportElementTypePhoneNumber
-//
 func NewPassportElementTypePhoneNumber() *PassportElementTypePhoneNumber {
 	passportElementTypePhoneNumberTemp := PassportElementTypePhoneNumber{
 		tdCommon: tdCommon{Type: "passportElementTypePhoneNumber"},
@@ -11977,7 +11906,6 @@ func (passportElementTypeEmailAddress *PassportElementTypeEmailAddress) MessageT
 }
 
 // NewPassportElementTypeEmailAddress creates a new PassportElementTypeEmailAddress
-//
 func NewPassportElementTypeEmailAddress() *PassportElementTypeEmailAddress {
 	passportElementTypeEmailAddressTemp := PassportElementTypeEmailAddress{
 		tdCommon: tdCommon{Type: "passportElementTypeEmailAddress"},
@@ -12995,7 +12923,6 @@ func (passportElementErrorSourceUnspecified *PassportElementErrorSourceUnspecifi
 }
 
 // NewPassportElementErrorSourceUnspecified creates a new PassportElementErrorSourceUnspecified
-//
 func NewPassportElementErrorSourceUnspecified() *PassportElementErrorSourceUnspecified {
 	passportElementErrorSourceUnspecifiedTemp := PassportElementErrorSourceUnspecified{
 		tdCommon: tdCommon{Type: "passportElementErrorSourceUnspecified"},
@@ -13048,7 +12975,6 @@ func (passportElementErrorSourceFrontSide *PassportElementErrorSourceFrontSide) 
 }
 
 // NewPassportElementErrorSourceFrontSide creates a new PassportElementErrorSourceFrontSide
-//
 func NewPassportElementErrorSourceFrontSide() *PassportElementErrorSourceFrontSide {
 	passportElementErrorSourceFrontSideTemp := PassportElementErrorSourceFrontSide{
 		tdCommon: tdCommon{Type: "passportElementErrorSourceFrontSide"},
@@ -13073,7 +12999,6 @@ func (passportElementErrorSourceReverseSide *PassportElementErrorSourceReverseSi
 }
 
 // NewPassportElementErrorSourceReverseSide creates a new PassportElementErrorSourceReverseSide
-//
 func NewPassportElementErrorSourceReverseSide() *PassportElementErrorSourceReverseSide {
 	passportElementErrorSourceReverseSideTemp := PassportElementErrorSourceReverseSide{
 		tdCommon: tdCommon{Type: "passportElementErrorSourceReverseSide"},
@@ -13098,7 +13023,6 @@ func (passportElementErrorSourceSelfie *PassportElementErrorSourceSelfie) Messag
 }
 
 // NewPassportElementErrorSourceSelfie creates a new PassportElementErrorSourceSelfie
-//
 func NewPassportElementErrorSourceSelfie() *PassportElementErrorSourceSelfie {
 	passportElementErrorSourceSelfieTemp := PassportElementErrorSourceSelfie{
 		tdCommon: tdCommon{Type: "passportElementErrorSourceSelfie"},
@@ -13151,7 +13075,6 @@ func (passportElementErrorSourceTranslationFiles *PassportElementErrorSourceTran
 }
 
 // NewPassportElementErrorSourceTranslationFiles creates a new PassportElementErrorSourceTranslationFiles
-//
 func NewPassportElementErrorSourceTranslationFiles() *PassportElementErrorSourceTranslationFiles {
 	passportElementErrorSourceTranslationFilesTemp := PassportElementErrorSourceTranslationFiles{
 		tdCommon: tdCommon{Type: "passportElementErrorSourceTranslationFiles"},
@@ -13204,7 +13127,6 @@ func (passportElementErrorSourceFiles *PassportElementErrorSourceFiles) MessageT
 }
 
 // NewPassportElementErrorSourceFiles creates a new PassportElementErrorSourceFiles
-//
 func NewPassportElementErrorSourceFiles() *PassportElementErrorSourceFiles {
 	passportElementErrorSourceFilesTemp := PassportElementErrorSourceFiles{
 		tdCommon: tdCommon{Type: "passportElementErrorSourceFiles"},
@@ -14015,7 +13937,6 @@ func (messageExpiredPhoto *MessageExpiredPhoto) MessageType() string {
 }
 
 // NewMessageExpiredPhoto creates a new MessageExpiredPhoto
-//
 func NewMessageExpiredPhoto() *MessageExpiredPhoto {
 	messageExpiredPhotoTemp := MessageExpiredPhoto{
 		tdCommon: tdCommon{Type: "messageExpiredPhoto"},
@@ -14102,7 +14023,6 @@ func (messageExpiredVideo *MessageExpiredVideo) MessageType() string {
 }
 
 // NewMessageExpiredVideo creates a new MessageExpiredVideo
-//
 func NewMessageExpiredVideo() *MessageExpiredVideo {
 	messageExpiredVideoTemp := MessageExpiredVideo{
 		tdCommon: tdCommon{Type: "messageExpiredVideo"},
@@ -14734,7 +14654,6 @@ func (messageChatDeletePhoto *MessageChatDeletePhoto) MessageType() string {
 }
 
 // NewMessageChatDeletePhoto creates a new MessageChatDeletePhoto
-//
 func NewMessageChatDeletePhoto() *MessageChatDeletePhoto {
 	messageChatDeletePhotoTemp := MessageChatDeletePhoto{
 		tdCommon: tdCommon{Type: "messageChatDeletePhoto"},
@@ -14787,7 +14706,6 @@ func (messageChatJoinByLink *MessageChatJoinByLink) MessageType() string {
 }
 
 // NewMessageChatJoinByLink creates a new MessageChatJoinByLink
-//
 func NewMessageChatJoinByLink() *MessageChatJoinByLink {
 	messageChatJoinByLinkTemp := MessageChatJoinByLink{
 		tdCommon: tdCommon{Type: "messageChatJoinByLink"},
@@ -14927,7 +14845,6 @@ func (messageScreenshotTaken *MessageScreenshotTaken) MessageType() string {
 }
 
 // NewMessageScreenshotTaken creates a new MessageScreenshotTaken
-//
 func NewMessageScreenshotTaken() *MessageScreenshotTaken {
 	messageScreenshotTakenTemp := MessageScreenshotTaken{
 		tdCommon: tdCommon{Type: "messageScreenshotTaken"},
@@ -15125,7 +15042,6 @@ func (messageContactRegistered *MessageContactRegistered) MessageType() string {
 }
 
 // NewMessageContactRegistered creates a new MessageContactRegistered
-//
 func NewMessageContactRegistered() *MessageContactRegistered {
 	messageContactRegisteredTemp := MessageContactRegistered{
 		tdCommon: tdCommon{Type: "messageContactRegistered"},
@@ -15299,7 +15215,6 @@ func (messageUnsupported *MessageUnsupported) MessageType() string {
 }
 
 // NewMessageUnsupported creates a new MessageUnsupported
-//
 func NewMessageUnsupported() *MessageUnsupported {
 	messageUnsupportedTemp := MessageUnsupported{
 		tdCommon: tdCommon{Type: "messageUnsupported"},
@@ -15324,7 +15239,6 @@ func (textEntityTypeMention *TextEntityTypeMention) MessageType() string {
 }
 
 // NewTextEntityTypeMention creates a new TextEntityTypeMention
-//
 func NewTextEntityTypeMention() *TextEntityTypeMention {
 	textEntityTypeMentionTemp := TextEntityTypeMention{
 		tdCommon: tdCommon{Type: "textEntityTypeMention"},
@@ -15349,7 +15263,6 @@ func (textEntityTypeHashtag *TextEntityTypeHashtag) MessageType() string {
 }
 
 // NewTextEntityTypeHashtag creates a new TextEntityTypeHashtag
-//
 func NewTextEntityTypeHashtag() *TextEntityTypeHashtag {
 	textEntityTypeHashtagTemp := TextEntityTypeHashtag{
 		tdCommon: tdCommon{Type: "textEntityTypeHashtag"},
@@ -15374,7 +15287,6 @@ func (textEntityTypeCashtag *TextEntityTypeCashtag) MessageType() string {
 }
 
 // NewTextEntityTypeCashtag creates a new TextEntityTypeCashtag
-//
 func NewTextEntityTypeCashtag() *TextEntityTypeCashtag {
 	textEntityTypeCashtagTemp := TextEntityTypeCashtag{
 		tdCommon: tdCommon{Type: "textEntityTypeCashtag"},
@@ -15399,7 +15311,6 @@ func (textEntityTypeBotCommand *TextEntityTypeBotCommand) MessageType() string {
 }
 
 // NewTextEntityTypeBotCommand creates a new TextEntityTypeBotCommand
-//
 func NewTextEntityTypeBotCommand() *TextEntityTypeBotCommand {
 	textEntityTypeBotCommandTemp := TextEntityTypeBotCommand{
 		tdCommon: tdCommon{Type: "textEntityTypeBotCommand"},
@@ -15424,7 +15335,6 @@ func (textEntityTypeURL *TextEntityTypeURL) MessageType() string {
 }
 
 // NewTextEntityTypeURL creates a new TextEntityTypeURL
-//
 func NewTextEntityTypeURL() *TextEntityTypeURL {
 	textEntityTypeURLTemp := TextEntityTypeURL{
 		tdCommon: tdCommon{Type: "textEntityTypeUrl"},
@@ -15449,7 +15359,6 @@ func (textEntityTypeEmailAddress *TextEntityTypeEmailAddress) MessageType() stri
 }
 
 // NewTextEntityTypeEmailAddress creates a new TextEntityTypeEmailAddress
-//
 func NewTextEntityTypeEmailAddress() *TextEntityTypeEmailAddress {
 	textEntityTypeEmailAddressTemp := TextEntityTypeEmailAddress{
 		tdCommon: tdCommon{Type: "textEntityTypeEmailAddress"},
@@ -15474,7 +15383,6 @@ func (textEntityTypePhoneNumber *TextEntityTypePhoneNumber) MessageType() string
 }
 
 // NewTextEntityTypePhoneNumber creates a new TextEntityTypePhoneNumber
-//
 func NewTextEntityTypePhoneNumber() *TextEntityTypePhoneNumber {
 	textEntityTypePhoneNumberTemp := TextEntityTypePhoneNumber{
 		tdCommon: tdCommon{Type: "textEntityTypePhoneNumber"},
@@ -15499,7 +15407,6 @@ func (textEntityTypeBankCardNumber *TextEntityTypeBankCardNumber) MessageType() 
 }
 
 // NewTextEntityTypeBankCardNumber creates a new TextEntityTypeBankCardNumber
-//
 func NewTextEntityTypeBankCardNumber() *TextEntityTypeBankCardNumber {
 	textEntityTypeBankCardNumberTemp := TextEntityTypeBankCardNumber{
 		tdCommon: tdCommon{Type: "textEntityTypeBankCardNumber"},
@@ -15524,7 +15431,6 @@ func (textEntityTypeBold *TextEntityTypeBold) MessageType() string {
 }
 
 // NewTextEntityTypeBold creates a new TextEntityTypeBold
-//
 func NewTextEntityTypeBold() *TextEntityTypeBold {
 	textEntityTypeBoldTemp := TextEntityTypeBold{
 		tdCommon: tdCommon{Type: "textEntityTypeBold"},
@@ -15549,7 +15455,6 @@ func (textEntityTypeItalic *TextEntityTypeItalic) MessageType() string {
 }
 
 // NewTextEntityTypeItalic creates a new TextEntityTypeItalic
-//
 func NewTextEntityTypeItalic() *TextEntityTypeItalic {
 	textEntityTypeItalicTemp := TextEntityTypeItalic{
 		tdCommon: tdCommon{Type: "textEntityTypeItalic"},
@@ -15574,7 +15479,6 @@ func (textEntityTypeUnderline *TextEntityTypeUnderline) MessageType() string {
 }
 
 // NewTextEntityTypeUnderline creates a new TextEntityTypeUnderline
-//
 func NewTextEntityTypeUnderline() *TextEntityTypeUnderline {
 	textEntityTypeUnderlineTemp := TextEntityTypeUnderline{
 		tdCommon: tdCommon{Type: "textEntityTypeUnderline"},
@@ -15599,7 +15503,6 @@ func (textEntityTypeStrikethrough *TextEntityTypeStrikethrough) MessageType() st
 }
 
 // NewTextEntityTypeStrikethrough creates a new TextEntityTypeStrikethrough
-//
 func NewTextEntityTypeStrikethrough() *TextEntityTypeStrikethrough {
 	textEntityTypeStrikethroughTemp := TextEntityTypeStrikethrough{
 		tdCommon: tdCommon{Type: "textEntityTypeStrikethrough"},
@@ -15624,7 +15527,6 @@ func (textEntityTypeCode *TextEntityTypeCode) MessageType() string {
 }
 
 // NewTextEntityTypeCode creates a new TextEntityTypeCode
-//
 func NewTextEntityTypeCode() *TextEntityTypeCode {
 	textEntityTypeCodeTemp := TextEntityTypeCode{
 		tdCommon: tdCommon{Type: "textEntityTypeCode"},
@@ -15649,7 +15551,6 @@ func (textEntityTypePre *TextEntityTypePre) MessageType() string {
 }
 
 // NewTextEntityTypePre creates a new TextEntityTypePre
-//
 func NewTextEntityTypePre() *TextEntityTypePre {
 	textEntityTypePreTemp := TextEntityTypePre{
 		tdCommon: tdCommon{Type: "textEntityTypePre"},
@@ -15842,7 +15743,6 @@ func (messageSchedulingStateSendWhenOnline *MessageSchedulingStateSendWhenOnline
 }
 
 // NewMessageSchedulingStateSendWhenOnline creates a new MessageSchedulingStateSendWhenOnline
-//
 func NewMessageSchedulingStateSendWhenOnline() *MessageSchedulingStateSendWhenOnline {
 	messageSchedulingStateSendWhenOnlineTemp := MessageSchedulingStateSendWhenOnline{
 		tdCommon: tdCommon{Type: "messageSchedulingStateSendWhenOnline"},
@@ -16916,7 +16816,6 @@ func (searchMessagesFilterEmpty *SearchMessagesFilterEmpty) MessageType() string
 }
 
 // NewSearchMessagesFilterEmpty creates a new SearchMessagesFilterEmpty
-//
 func NewSearchMessagesFilterEmpty() *SearchMessagesFilterEmpty {
 	searchMessagesFilterEmptyTemp := SearchMessagesFilterEmpty{
 		tdCommon: tdCommon{Type: "searchMessagesFilterEmpty"},
@@ -16941,7 +16840,6 @@ func (searchMessagesFilterAnimation *SearchMessagesFilterAnimation) MessageType(
 }
 
 // NewSearchMessagesFilterAnimation creates a new SearchMessagesFilterAnimation
-//
 func NewSearchMessagesFilterAnimation() *SearchMessagesFilterAnimation {
 	searchMessagesFilterAnimationTemp := SearchMessagesFilterAnimation{
 		tdCommon: tdCommon{Type: "searchMessagesFilterAnimation"},
@@ -16966,7 +16864,6 @@ func (searchMessagesFilterAudio *SearchMessagesFilterAudio) MessageType() string
 }
 
 // NewSearchMessagesFilterAudio creates a new SearchMessagesFilterAudio
-//
 func NewSearchMessagesFilterAudio() *SearchMessagesFilterAudio {
 	searchMessagesFilterAudioTemp := SearchMessagesFilterAudio{
 		tdCommon: tdCommon{Type: "searchMessagesFilterAudio"},
@@ -16991,7 +16888,6 @@ func (searchMessagesFilterDocument *SearchMessagesFilterDocument) MessageType() 
 }
 
 // NewSearchMessagesFilterDocument creates a new SearchMessagesFilterDocument
-//
 func NewSearchMessagesFilterDocument() *SearchMessagesFilterDocument {
 	searchMessagesFilterDocumentTemp := SearchMessagesFilterDocument{
 		tdCommon: tdCommon{Type: "searchMessagesFilterDocument"},
@@ -17016,7 +16912,6 @@ func (searchMessagesFilterPhoto *SearchMessagesFilterPhoto) MessageType() string
 }
 
 // NewSearchMessagesFilterPhoto creates a new SearchMessagesFilterPhoto
-//
 func NewSearchMessagesFilterPhoto() *SearchMessagesFilterPhoto {
 	searchMessagesFilterPhotoTemp := SearchMessagesFilterPhoto{
 		tdCommon: tdCommon{Type: "searchMessagesFilterPhoto"},
@@ -17041,7 +16936,6 @@ func (searchMessagesFilterVideo *SearchMessagesFilterVideo) MessageType() string
 }
 
 // NewSearchMessagesFilterVideo creates a new SearchMessagesFilterVideo
-//
 func NewSearchMessagesFilterVideo() *SearchMessagesFilterVideo {
 	searchMessagesFilterVideoTemp := SearchMessagesFilterVideo{
 		tdCommon: tdCommon{Type: "searchMessagesFilterVideo"},
@@ -17066,7 +16960,6 @@ func (searchMessagesFilterVoiceNote *SearchMessagesFilterVoiceNote) MessageType(
 }
 
 // NewSearchMessagesFilterVoiceNote creates a new SearchMessagesFilterVoiceNote
-//
 func NewSearchMessagesFilterVoiceNote() *SearchMessagesFilterVoiceNote {
 	searchMessagesFilterVoiceNoteTemp := SearchMessagesFilterVoiceNote{
 		tdCommon: tdCommon{Type: "searchMessagesFilterVoiceNote"},
@@ -17091,7 +16984,6 @@ func (searchMessagesFilterPhotoAndVideo *SearchMessagesFilterPhotoAndVideo) Mess
 }
 
 // NewSearchMessagesFilterPhotoAndVideo creates a new SearchMessagesFilterPhotoAndVideo
-//
 func NewSearchMessagesFilterPhotoAndVideo() *SearchMessagesFilterPhotoAndVideo {
 	searchMessagesFilterPhotoAndVideoTemp := SearchMessagesFilterPhotoAndVideo{
 		tdCommon: tdCommon{Type: "searchMessagesFilterPhotoAndVideo"},
@@ -17116,7 +17008,6 @@ func (searchMessagesFilterURL *SearchMessagesFilterURL) MessageType() string {
 }
 
 // NewSearchMessagesFilterURL creates a new SearchMessagesFilterURL
-//
 func NewSearchMessagesFilterURL() *SearchMessagesFilterURL {
 	searchMessagesFilterURLTemp := SearchMessagesFilterURL{
 		tdCommon: tdCommon{Type: "searchMessagesFilterUrl"},
@@ -17141,7 +17032,6 @@ func (searchMessagesFilterChatPhoto *SearchMessagesFilterChatPhoto) MessageType(
 }
 
 // NewSearchMessagesFilterChatPhoto creates a new SearchMessagesFilterChatPhoto
-//
 func NewSearchMessagesFilterChatPhoto() *SearchMessagesFilterChatPhoto {
 	searchMessagesFilterChatPhotoTemp := SearchMessagesFilterChatPhoto{
 		tdCommon: tdCommon{Type: "searchMessagesFilterChatPhoto"},
@@ -17166,7 +17056,6 @@ func (searchMessagesFilterCall *SearchMessagesFilterCall) MessageType() string {
 }
 
 // NewSearchMessagesFilterCall creates a new SearchMessagesFilterCall
-//
 func NewSearchMessagesFilterCall() *SearchMessagesFilterCall {
 	searchMessagesFilterCallTemp := SearchMessagesFilterCall{
 		tdCommon: tdCommon{Type: "searchMessagesFilterCall"},
@@ -17191,7 +17080,6 @@ func (searchMessagesFilterMissedCall *SearchMessagesFilterMissedCall) MessageTyp
 }
 
 // NewSearchMessagesFilterMissedCall creates a new SearchMessagesFilterMissedCall
-//
 func NewSearchMessagesFilterMissedCall() *SearchMessagesFilterMissedCall {
 	searchMessagesFilterMissedCallTemp := SearchMessagesFilterMissedCall{
 		tdCommon: tdCommon{Type: "searchMessagesFilterMissedCall"},
@@ -17216,7 +17104,6 @@ func (searchMessagesFilterVideoNote *SearchMessagesFilterVideoNote) MessageType(
 }
 
 // NewSearchMessagesFilterVideoNote creates a new SearchMessagesFilterVideoNote
-//
 func NewSearchMessagesFilterVideoNote() *SearchMessagesFilterVideoNote {
 	searchMessagesFilterVideoNoteTemp := SearchMessagesFilterVideoNote{
 		tdCommon: tdCommon{Type: "searchMessagesFilterVideoNote"},
@@ -17241,7 +17128,6 @@ func (searchMessagesFilterVoiceAndVideoNote *SearchMessagesFilterVoiceAndVideoNo
 }
 
 // NewSearchMessagesFilterVoiceAndVideoNote creates a new SearchMessagesFilterVoiceAndVideoNote
-//
 func NewSearchMessagesFilterVoiceAndVideoNote() *SearchMessagesFilterVoiceAndVideoNote {
 	searchMessagesFilterVoiceAndVideoNoteTemp := SearchMessagesFilterVoiceAndVideoNote{
 		tdCommon: tdCommon{Type: "searchMessagesFilterVoiceAndVideoNote"},
@@ -17266,7 +17152,6 @@ func (searchMessagesFilterMention *SearchMessagesFilterMention) MessageType() st
 }
 
 // NewSearchMessagesFilterMention creates a new SearchMessagesFilterMention
-//
 func NewSearchMessagesFilterMention() *SearchMessagesFilterMention {
 	searchMessagesFilterMentionTemp := SearchMessagesFilterMention{
 		tdCommon: tdCommon{Type: "searchMessagesFilterMention"},
@@ -17291,7 +17176,6 @@ func (searchMessagesFilterUnreadMention *SearchMessagesFilterUnreadMention) Mess
 }
 
 // NewSearchMessagesFilterUnreadMention creates a new SearchMessagesFilterUnreadMention
-//
 func NewSearchMessagesFilterUnreadMention() *SearchMessagesFilterUnreadMention {
 	searchMessagesFilterUnreadMentionTemp := SearchMessagesFilterUnreadMention{
 		tdCommon: tdCommon{Type: "searchMessagesFilterUnreadMention"},
@@ -17316,7 +17200,6 @@ func (searchMessagesFilterFailedToSend *SearchMessagesFilterFailedToSend) Messag
 }
 
 // NewSearchMessagesFilterFailedToSend creates a new SearchMessagesFilterFailedToSend
-//
 func NewSearchMessagesFilterFailedToSend() *SearchMessagesFilterFailedToSend {
 	searchMessagesFilterFailedToSendTemp := SearchMessagesFilterFailedToSend{
 		tdCommon: tdCommon{Type: "searchMessagesFilterFailedToSend"},
@@ -17341,7 +17224,6 @@ func (searchMessagesFilterPinned *SearchMessagesFilterPinned) MessageType() stri
 }
 
 // NewSearchMessagesFilterPinned creates a new SearchMessagesFilterPinned
-//
 func NewSearchMessagesFilterPinned() *SearchMessagesFilterPinned {
 	searchMessagesFilterPinnedTemp := SearchMessagesFilterPinned{
 		tdCommon: tdCommon{Type: "searchMessagesFilterPinned"},
@@ -17366,7 +17248,6 @@ func (chatActionTyping *ChatActionTyping) MessageType() string {
 }
 
 // NewChatActionTyping creates a new ChatActionTyping
-//
 func NewChatActionTyping() *ChatActionTyping {
 	chatActionTypingTemp := ChatActionTyping{
 		tdCommon: tdCommon{Type: "chatActionTyping"},
@@ -17391,7 +17272,6 @@ func (chatActionRecordingVideo *ChatActionRecordingVideo) MessageType() string {
 }
 
 // NewChatActionRecordingVideo creates a new ChatActionRecordingVideo
-//
 func NewChatActionRecordingVideo() *ChatActionRecordingVideo {
 	chatActionRecordingVideoTemp := ChatActionRecordingVideo{
 		tdCommon: tdCommon{Type: "chatActionRecordingVideo"},
@@ -17444,7 +17324,6 @@ func (chatActionRecordingVoiceNote *ChatActionRecordingVoiceNote) MessageType() 
 }
 
 // NewChatActionRecordingVoiceNote creates a new ChatActionRecordingVoiceNote
-//
 func NewChatActionRecordingVoiceNote() *ChatActionRecordingVoiceNote {
 	chatActionRecordingVoiceNoteTemp := ChatActionRecordingVoiceNote{
 		tdCommon: tdCommon{Type: "chatActionRecordingVoiceNote"},
@@ -17553,7 +17432,6 @@ func (chatActionChoosingLocation *ChatActionChoosingLocation) MessageType() stri
 }
 
 // NewChatActionChoosingLocation creates a new ChatActionChoosingLocation
-//
 func NewChatActionChoosingLocation() *ChatActionChoosingLocation {
 	chatActionChoosingLocationTemp := ChatActionChoosingLocation{
 		tdCommon: tdCommon{Type: "chatActionChoosingLocation"},
@@ -17578,7 +17456,6 @@ func (chatActionChoosingContact *ChatActionChoosingContact) MessageType() string
 }
 
 // NewChatActionChoosingContact creates a new ChatActionChoosingContact
-//
 func NewChatActionChoosingContact() *ChatActionChoosingContact {
 	chatActionChoosingContactTemp := ChatActionChoosingContact{
 		tdCommon: tdCommon{Type: "chatActionChoosingContact"},
@@ -17603,7 +17480,6 @@ func (chatActionStartPlayingGame *ChatActionStartPlayingGame) MessageType() stri
 }
 
 // NewChatActionStartPlayingGame creates a new ChatActionStartPlayingGame
-//
 func NewChatActionStartPlayingGame() *ChatActionStartPlayingGame {
 	chatActionStartPlayingGameTemp := ChatActionStartPlayingGame{
 		tdCommon: tdCommon{Type: "chatActionStartPlayingGame"},
@@ -17628,7 +17504,6 @@ func (chatActionRecordingVideoNote *ChatActionRecordingVideoNote) MessageType() 
 }
 
 // NewChatActionRecordingVideoNote creates a new ChatActionRecordingVideoNote
-//
 func NewChatActionRecordingVideoNote() *ChatActionRecordingVideoNote {
 	chatActionRecordingVideoNoteTemp := ChatActionRecordingVideoNote{
 		tdCommon: tdCommon{Type: "chatActionRecordingVideoNote"},
@@ -17681,7 +17556,6 @@ func (chatActionCancel *ChatActionCancel) MessageType() string {
 }
 
 // NewChatActionCancel creates a new ChatActionCancel
-//
 func NewChatActionCancel() *ChatActionCancel {
 	chatActionCancelTemp := ChatActionCancel{
 		tdCommon: tdCommon{Type: "chatActionCancel"},
@@ -17706,7 +17580,6 @@ func (userStatusEmpty *UserStatusEmpty) MessageType() string {
 }
 
 // NewUserStatusEmpty creates a new UserStatusEmpty
-//
 func NewUserStatusEmpty() *UserStatusEmpty {
 	userStatusEmptyTemp := UserStatusEmpty{
 		tdCommon: tdCommon{Type: "userStatusEmpty"},
@@ -17787,7 +17660,6 @@ func (userStatusRecently *UserStatusRecently) MessageType() string {
 }
 
 // NewUserStatusRecently creates a new UserStatusRecently
-//
 func NewUserStatusRecently() *UserStatusRecently {
 	userStatusRecentlyTemp := UserStatusRecently{
 		tdCommon: tdCommon{Type: "userStatusRecently"},
@@ -17812,7 +17684,6 @@ func (userStatusLastWeek *UserStatusLastWeek) MessageType() string {
 }
 
 // NewUserStatusLastWeek creates a new UserStatusLastWeek
-//
 func NewUserStatusLastWeek() *UserStatusLastWeek {
 	userStatusLastWeekTemp := UserStatusLastWeek{
 		tdCommon: tdCommon{Type: "userStatusLastWeek"},
@@ -17837,7 +17708,6 @@ func (userStatusLastMonth *UserStatusLastMonth) MessageType() string {
 }
 
 // NewUserStatusLastMonth creates a new UserStatusLastMonth
-//
 func NewUserStatusLastMonth() *UserStatusLastMonth {
 	userStatusLastMonthTemp := UserStatusLastMonth{
 		tdCommon: tdCommon{Type: "userStatusLastMonth"},
@@ -18052,7 +17922,6 @@ func (callDiscardReasonEmpty *CallDiscardReasonEmpty) MessageType() string {
 }
 
 // NewCallDiscardReasonEmpty creates a new CallDiscardReasonEmpty
-//
 func NewCallDiscardReasonEmpty() *CallDiscardReasonEmpty {
 	callDiscardReasonEmptyTemp := CallDiscardReasonEmpty{
 		tdCommon: tdCommon{Type: "callDiscardReasonEmpty"},
@@ -18077,7 +17946,6 @@ func (callDiscardReasonMissed *CallDiscardReasonMissed) MessageType() string {
 }
 
 // NewCallDiscardReasonMissed creates a new CallDiscardReasonMissed
-//
 func NewCallDiscardReasonMissed() *CallDiscardReasonMissed {
 	callDiscardReasonMissedTemp := CallDiscardReasonMissed{
 		tdCommon: tdCommon{Type: "callDiscardReasonMissed"},
@@ -18102,7 +17970,6 @@ func (callDiscardReasonDeclined *CallDiscardReasonDeclined) MessageType() string
 }
 
 // NewCallDiscardReasonDeclined creates a new CallDiscardReasonDeclined
-//
 func NewCallDiscardReasonDeclined() *CallDiscardReasonDeclined {
 	callDiscardReasonDeclinedTemp := CallDiscardReasonDeclined{
 		tdCommon: tdCommon{Type: "callDiscardReasonDeclined"},
@@ -18127,7 +17994,6 @@ func (callDiscardReasonDisconnected *CallDiscardReasonDisconnected) MessageType(
 }
 
 // NewCallDiscardReasonDisconnected creates a new CallDiscardReasonDisconnected
-//
 func NewCallDiscardReasonDisconnected() *CallDiscardReasonDisconnected {
 	callDiscardReasonDisconnectedTemp := CallDiscardReasonDisconnected{
 		tdCommon: tdCommon{Type: "callDiscardReasonDisconnected"},
@@ -18152,7 +18018,6 @@ func (callDiscardReasonHungUp *CallDiscardReasonHungUp) MessageType() string {
 }
 
 // NewCallDiscardReasonHungUp creates a new CallDiscardReasonHungUp
-//
 func NewCallDiscardReasonHungUp() *CallDiscardReasonHungUp {
 	callDiscardReasonHungUpTemp := CallDiscardReasonHungUp{
 		tdCommon: tdCommon{Type: "callDiscardReasonHungUp"},
@@ -18421,7 +18286,6 @@ func (callStateExchangingKeys *CallStateExchangingKeys) MessageType() string {
 }
 
 // NewCallStateExchangingKeys creates a new CallStateExchangingKeys
-//
 func NewCallStateExchangingKeys() *CallStateExchangingKeys {
 	callStateExchangingKeysTemp := CallStateExchangingKeys{
 		tdCommon: tdCommon{Type: "callStateExchangingKeys"},
@@ -18489,7 +18353,6 @@ func (callStateHangingUp *CallStateHangingUp) MessageType() string {
 }
 
 // NewCallStateHangingUp creates a new CallStateHangingUp
-//
 func NewCallStateHangingUp() *CallStateHangingUp {
 	callStateHangingUpTemp := CallStateHangingUp{
 		tdCommon: tdCommon{Type: "callStateHangingUp"},
@@ -18884,7 +18747,6 @@ func (callProblemEcho *CallProblemEcho) MessageType() string {
 }
 
 // NewCallProblemEcho creates a new CallProblemEcho
-//
 func NewCallProblemEcho() *CallProblemEcho {
 	callProblemEchoTemp := CallProblemEcho{
 		tdCommon: tdCommon{Type: "callProblemEcho"},
@@ -18909,7 +18771,6 @@ func (callProblemNoise *CallProblemNoise) MessageType() string {
 }
 
 // NewCallProblemNoise creates a new CallProblemNoise
-//
 func NewCallProblemNoise() *CallProblemNoise {
 	callProblemNoiseTemp := CallProblemNoise{
 		tdCommon: tdCommon{Type: "callProblemNoise"},
@@ -18934,7 +18795,6 @@ func (callProblemInterruptions *CallProblemInterruptions) MessageType() string {
 }
 
 // NewCallProblemInterruptions creates a new CallProblemInterruptions
-//
 func NewCallProblemInterruptions() *CallProblemInterruptions {
 	callProblemInterruptionsTemp := CallProblemInterruptions{
 		tdCommon: tdCommon{Type: "callProblemInterruptions"},
@@ -18959,7 +18819,6 @@ func (callProblemDistortedSpeech *CallProblemDistortedSpeech) MessageType() stri
 }
 
 // NewCallProblemDistortedSpeech creates a new CallProblemDistortedSpeech
-//
 func NewCallProblemDistortedSpeech() *CallProblemDistortedSpeech {
 	callProblemDistortedSpeechTemp := CallProblemDistortedSpeech{
 		tdCommon: tdCommon{Type: "callProblemDistortedSpeech"},
@@ -18984,7 +18843,6 @@ func (callProblemSilentLocal *CallProblemSilentLocal) MessageType() string {
 }
 
 // NewCallProblemSilentLocal creates a new CallProblemSilentLocal
-//
 func NewCallProblemSilentLocal() *CallProblemSilentLocal {
 	callProblemSilentLocalTemp := CallProblemSilentLocal{
 		tdCommon: tdCommon{Type: "callProblemSilentLocal"},
@@ -19009,7 +18867,6 @@ func (callProblemSilentRemote *CallProblemSilentRemote) MessageType() string {
 }
 
 // NewCallProblemSilentRemote creates a new CallProblemSilentRemote
-//
 func NewCallProblemSilentRemote() *CallProblemSilentRemote {
 	callProblemSilentRemoteTemp := CallProblemSilentRemote{
 		tdCommon: tdCommon{Type: "callProblemSilentRemote"},
@@ -19034,7 +18891,6 @@ func (callProblemDropped *CallProblemDropped) MessageType() string {
 }
 
 // NewCallProblemDropped creates a new CallProblemDropped
-//
 func NewCallProblemDropped() *CallProblemDropped {
 	callProblemDroppedTemp := CallProblemDropped{
 		tdCommon: tdCommon{Type: "callProblemDropped"},
@@ -19059,7 +18915,6 @@ func (callProblemDistortedVideo *CallProblemDistortedVideo) MessageType() string
 }
 
 // NewCallProblemDistortedVideo creates a new CallProblemDistortedVideo
-//
 func NewCallProblemDistortedVideo() *CallProblemDistortedVideo {
 	callProblemDistortedVideoTemp := CallProblemDistortedVideo{
 		tdCommon: tdCommon{Type: "callProblemDistortedVideo"},
@@ -19084,7 +18939,6 @@ func (callProblemPixelatedVideo *CallProblemPixelatedVideo) MessageType() string
 }
 
 // NewCallProblemPixelatedVideo creates a new CallProblemPixelatedVideo
-//
 func NewCallProblemPixelatedVideo() *CallProblemPixelatedVideo {
 	callProblemPixelatedVideoTemp := CallProblemPixelatedVideo{
 		tdCommon: tdCommon{Type: "callProblemPixelatedVideo"},
@@ -21194,7 +21048,6 @@ func (chatEventMemberJoined *ChatEventMemberJoined) MessageType() string {
 }
 
 // NewChatEventMemberJoined creates a new ChatEventMemberJoined
-//
 func NewChatEventMemberJoined() *ChatEventMemberJoined {
 	chatEventMemberJoinedTemp := ChatEventMemberJoined{
 		tdCommon: tdCommon{Type: "chatEventMemberJoined"},
@@ -21219,7 +21072,6 @@ func (chatEventMemberLeft *ChatEventMemberLeft) MessageType() string {
 }
 
 // NewChatEventMemberLeft creates a new ChatEventMemberLeft
-//
 func NewChatEventMemberLeft() *ChatEventMemberLeft {
 	chatEventMemberLeftTemp := ChatEventMemberLeft{
 		tdCommon: tdCommon{Type: "chatEventMemberLeft"},
@@ -22114,7 +21966,6 @@ func (languagePackStringValueDeleted *LanguagePackStringValueDeleted) MessageTyp
 }
 
 // NewLanguagePackStringValueDeleted creates a new LanguagePackStringValueDeleted
-//
 func NewLanguagePackStringValueDeleted() *LanguagePackStringValueDeleted {
 	languagePackStringValueDeletedTemp := LanguagePackStringValueDeleted{
 		tdCommon: tdCommon{Type: "languagePackStringValueDeleted"},
@@ -23047,7 +22898,6 @@ func (canTransferOwnershipResultOk *CanTransferOwnershipResultOk) MessageType() 
 }
 
 // NewCanTransferOwnershipResultOk creates a new CanTransferOwnershipResultOk
-//
 func NewCanTransferOwnershipResultOk() *CanTransferOwnershipResultOk {
 	canTransferOwnershipResultOkTemp := CanTransferOwnershipResultOk{
 		tdCommon: tdCommon{Type: "canTransferOwnershipResultOk"},
@@ -23072,7 +22922,6 @@ func (canTransferOwnershipResultPasswordNeeded *CanTransferOwnershipResultPasswo
 }
 
 // NewCanTransferOwnershipResultPasswordNeeded creates a new CanTransferOwnershipResultPasswordNeeded
-//
 func NewCanTransferOwnershipResultPasswordNeeded() *CanTransferOwnershipResultPasswordNeeded {
 	canTransferOwnershipResultPasswordNeededTemp := CanTransferOwnershipResultPasswordNeeded{
 		tdCommon: tdCommon{Type: "canTransferOwnershipResultPasswordNeeded"},
@@ -23153,7 +23002,6 @@ func (checkChatUsernameResultOk *CheckChatUsernameResultOk) MessageType() string
 }
 
 // NewCheckChatUsernameResultOk creates a new CheckChatUsernameResultOk
-//
 func NewCheckChatUsernameResultOk() *CheckChatUsernameResultOk {
 	checkChatUsernameResultOkTemp := CheckChatUsernameResultOk{
 		tdCommon: tdCommon{Type: "checkChatUsernameResultOk"},
@@ -23178,7 +23026,6 @@ func (checkChatUsernameResultUsernameInvalid *CheckChatUsernameResultUsernameInv
 }
 
 // NewCheckChatUsernameResultUsernameInvalid creates a new CheckChatUsernameResultUsernameInvalid
-//
 func NewCheckChatUsernameResultUsernameInvalid() *CheckChatUsernameResultUsernameInvalid {
 	checkChatUsernameResultUsernameInvalidTemp := CheckChatUsernameResultUsernameInvalid{
 		tdCommon: tdCommon{Type: "checkChatUsernameResultUsernameInvalid"},
@@ -23203,7 +23050,6 @@ func (checkChatUsernameResultUsernameOccupied *CheckChatUsernameResultUsernameOc
 }
 
 // NewCheckChatUsernameResultUsernameOccupied creates a new CheckChatUsernameResultUsernameOccupied
-//
 func NewCheckChatUsernameResultUsernameOccupied() *CheckChatUsernameResultUsernameOccupied {
 	checkChatUsernameResultUsernameOccupiedTemp := CheckChatUsernameResultUsernameOccupied{
 		tdCommon: tdCommon{Type: "checkChatUsernameResultUsernameOccupied"},
@@ -23228,7 +23074,6 @@ func (checkChatUsernameResultPublicChatsTooMuch *CheckChatUsernameResultPublicCh
 }
 
 // NewCheckChatUsernameResultPublicChatsTooMuch creates a new CheckChatUsernameResultPublicChatsTooMuch
-//
 func NewCheckChatUsernameResultPublicChatsTooMuch() *CheckChatUsernameResultPublicChatsTooMuch {
 	checkChatUsernameResultPublicChatsTooMuchTemp := CheckChatUsernameResultPublicChatsTooMuch{
 		tdCommon: tdCommon{Type: "checkChatUsernameResultPublicChatsTooMuch"},
@@ -23253,7 +23098,6 @@ func (checkChatUsernameResultPublicGroupsUnavailable *CheckChatUsernameResultPub
 }
 
 // NewCheckChatUsernameResultPublicGroupsUnavailable creates a new CheckChatUsernameResultPublicGroupsUnavailable
-//
 func NewCheckChatUsernameResultPublicGroupsUnavailable() *CheckChatUsernameResultPublicGroupsUnavailable {
 	checkChatUsernameResultPublicGroupsUnavailableTemp := CheckChatUsernameResultPublicGroupsUnavailable{
 		tdCommon: tdCommon{Type: "checkChatUsernameResultPublicGroupsUnavailable"},
@@ -23334,7 +23178,6 @@ func (messageFileTypeUnknown *MessageFileTypeUnknown) MessageType() string {
 }
 
 // NewMessageFileTypeUnknown creates a new MessageFileTypeUnknown
-//
 func NewMessageFileTypeUnknown() *MessageFileTypeUnknown {
 	messageFileTypeUnknownTemp := MessageFileTypeUnknown{
 		tdCommon: tdCommon{Type: "messageFileTypeUnknown"},
@@ -23483,7 +23326,6 @@ func (pushMessageContentContactRegistered *PushMessageContentContactRegistered) 
 }
 
 // NewPushMessageContentContactRegistered creates a new PushMessageContentContactRegistered
-//
 func NewPushMessageContentContactRegistered() *PushMessageContentContactRegistered {
 	pushMessageContentContactRegisteredTemp := PushMessageContentContactRegistered{
 		tdCommon: tdCommon{Type: "pushMessageContentContactRegistered"},
@@ -23737,7 +23579,6 @@ func (pushMessageContentScreenshotTaken *PushMessageContentScreenshotTaken) Mess
 }
 
 // NewPushMessageContentScreenshotTaken creates a new PushMessageContentScreenshotTaken
-//
 func NewPushMessageContentScreenshotTaken() *PushMessageContentScreenshotTaken {
 	pushMessageContentScreenshotTakenTemp := PushMessageContentScreenshotTaken{
 		tdCommon: tdCommon{Type: "pushMessageContentScreenshotTaken"},
@@ -23926,7 +23767,6 @@ func (pushMessageContentBasicGroupChatCreate *PushMessageContentBasicGroupChatCr
 }
 
 // NewPushMessageContentBasicGroupChatCreate creates a new PushMessageContentBasicGroupChatCreate
-//
 func NewPushMessageContentBasicGroupChatCreate() *PushMessageContentBasicGroupChatCreate {
 	pushMessageContentBasicGroupChatCreateTemp := PushMessageContentBasicGroupChatCreate{
 		tdCommon: tdCommon{Type: "pushMessageContentBasicGroupChatCreate"},
@@ -23985,7 +23825,6 @@ func (pushMessageContentChatChangePhoto *PushMessageContentChatChangePhoto) Mess
 }
 
 // NewPushMessageContentChatChangePhoto creates a new PushMessageContentChatChangePhoto
-//
 func NewPushMessageContentChatChangePhoto() *PushMessageContentChatChangePhoto {
 	pushMessageContentChatChangePhotoTemp := PushMessageContentChatChangePhoto{
 		tdCommon: tdCommon{Type: "pushMessageContentChatChangePhoto"},
@@ -24072,7 +23911,6 @@ func (pushMessageContentChatJoinByLink *PushMessageContentChatJoinByLink) Messag
 }
 
 // NewPushMessageContentChatJoinByLink creates a new PushMessageContentChatJoinByLink
-//
 func NewPushMessageContentChatJoinByLink() *PushMessageContentChatJoinByLink {
 	pushMessageContentChatJoinByLinkTemp := PushMessageContentChatJoinByLink{
 		tdCommon: tdCommon{Type: "pushMessageContentChatJoinByLink"},
@@ -24193,7 +24031,6 @@ func (notificationTypeNewSecretChat *NotificationTypeNewSecretChat) MessageType(
 }
 
 // NewNotificationTypeNewSecretChat creates a new NotificationTypeNewSecretChat
-//
 func NewNotificationTypeNewSecretChat() *NotificationTypeNewSecretChat {
 	notificationTypeNewSecretChatTemp := NotificationTypeNewSecretChat{
 		tdCommon: tdCommon{Type: "notificationTypeNewSecretChat"},
@@ -24319,7 +24156,6 @@ func (notificationGroupTypeMessages *NotificationGroupTypeMessages) MessageType(
 }
 
 // NewNotificationGroupTypeMessages creates a new NotificationGroupTypeMessages
-//
 func NewNotificationGroupTypeMessages() *NotificationGroupTypeMessages {
 	notificationGroupTypeMessagesTemp := NotificationGroupTypeMessages{
 		tdCommon: tdCommon{Type: "notificationGroupTypeMessages"},
@@ -24344,7 +24180,6 @@ func (notificationGroupTypeMentions *NotificationGroupTypeMentions) MessageType(
 }
 
 // NewNotificationGroupTypeMentions creates a new NotificationGroupTypeMentions
-//
 func NewNotificationGroupTypeMentions() *NotificationGroupTypeMentions {
 	notificationGroupTypeMentionsTemp := NotificationGroupTypeMentions{
 		tdCommon: tdCommon{Type: "notificationGroupTypeMentions"},
@@ -24369,7 +24204,6 @@ func (notificationGroupTypeSecretChat *NotificationGroupTypeSecretChat) MessageT
 }
 
 // NewNotificationGroupTypeSecretChat creates a new NotificationGroupTypeSecretChat
-//
 func NewNotificationGroupTypeSecretChat() *NotificationGroupTypeSecretChat {
 	notificationGroupTypeSecretChatTemp := NotificationGroupTypeSecretChat{
 		tdCommon: tdCommon{Type: "notificationGroupTypeSecretChat"},
@@ -24394,7 +24228,6 @@ func (notificationGroupTypeCalls *NotificationGroupTypeCalls) MessageType() stri
 }
 
 // NewNotificationGroupTypeCalls creates a new NotificationGroupTypeCalls
-//
 func NewNotificationGroupTypeCalls() *NotificationGroupTypeCalls {
 	notificationGroupTypeCallsTemp := NotificationGroupTypeCalls{
 		tdCommon: tdCommon{Type: "notificationGroupTypeCalls"},
@@ -24575,7 +24408,6 @@ func (optionValueEmpty *OptionValueEmpty) MessageType() string {
 }
 
 // NewOptionValueEmpty creates a new OptionValueEmpty
-//
 func NewOptionValueEmpty() *OptionValueEmpty {
 	optionValueEmptyTemp := OptionValueEmpty{
 		tdCommon: tdCommon{Type: "optionValueEmpty"},
@@ -24708,7 +24540,6 @@ func (jsonValueNull *JsonValueNull) MessageType() string {
 }
 
 // NewJsonValueNull creates a new JsonValueNull
-//
 func NewJsonValueNull() *JsonValueNull {
 	jsonValueNullTemp := JsonValueNull{
 		tdCommon: tdCommon{Type: "jsonValueNull"},
@@ -24873,7 +24704,6 @@ func (userPrivacySettingRuleAllowAll *UserPrivacySettingRuleAllowAll) MessageTyp
 }
 
 // NewUserPrivacySettingRuleAllowAll creates a new UserPrivacySettingRuleAllowAll
-//
 func NewUserPrivacySettingRuleAllowAll() *UserPrivacySettingRuleAllowAll {
 	userPrivacySettingRuleAllowAllTemp := UserPrivacySettingRuleAllowAll{
 		tdCommon: tdCommon{Type: "userPrivacySettingRuleAllowAll"},
@@ -24898,7 +24728,6 @@ func (userPrivacySettingRuleAllowContacts *UserPrivacySettingRuleAllowContacts) 
 }
 
 // NewUserPrivacySettingRuleAllowContacts creates a new UserPrivacySettingRuleAllowContacts
-//
 func NewUserPrivacySettingRuleAllowContacts() *UserPrivacySettingRuleAllowContacts {
 	userPrivacySettingRuleAllowContactsTemp := UserPrivacySettingRuleAllowContacts{
 		tdCommon: tdCommon{Type: "userPrivacySettingRuleAllowContacts"},
@@ -24979,7 +24808,6 @@ func (userPrivacySettingRuleRestrictAll *UserPrivacySettingRuleRestrictAll) Mess
 }
 
 // NewUserPrivacySettingRuleRestrictAll creates a new UserPrivacySettingRuleRestrictAll
-//
 func NewUserPrivacySettingRuleRestrictAll() *UserPrivacySettingRuleRestrictAll {
 	userPrivacySettingRuleRestrictAllTemp := UserPrivacySettingRuleRestrictAll{
 		tdCommon: tdCommon{Type: "userPrivacySettingRuleRestrictAll"},
@@ -25004,7 +24832,6 @@ func (userPrivacySettingRuleRestrictContacts *UserPrivacySettingRuleRestrictCont
 }
 
 // NewUserPrivacySettingRuleRestrictContacts creates a new UserPrivacySettingRuleRestrictContacts
-//
 func NewUserPrivacySettingRuleRestrictContacts() *UserPrivacySettingRuleRestrictContacts {
 	userPrivacySettingRuleRestrictContactsTemp := UserPrivacySettingRuleRestrictContacts{
 		tdCommon: tdCommon{Type: "userPrivacySettingRuleRestrictContacts"},
@@ -25108,7 +24935,6 @@ func (userPrivacySettingShowStatus *UserPrivacySettingShowStatus) MessageType() 
 }
 
 // NewUserPrivacySettingShowStatus creates a new UserPrivacySettingShowStatus
-//
 func NewUserPrivacySettingShowStatus() *UserPrivacySettingShowStatus {
 	userPrivacySettingShowStatusTemp := UserPrivacySettingShowStatus{
 		tdCommon: tdCommon{Type: "userPrivacySettingShowStatus"},
@@ -25133,7 +24959,6 @@ func (userPrivacySettingShowProfilePhoto *UserPrivacySettingShowProfilePhoto) Me
 }
 
 // NewUserPrivacySettingShowProfilePhoto creates a new UserPrivacySettingShowProfilePhoto
-//
 func NewUserPrivacySettingShowProfilePhoto() *UserPrivacySettingShowProfilePhoto {
 	userPrivacySettingShowProfilePhotoTemp := UserPrivacySettingShowProfilePhoto{
 		tdCommon: tdCommon{Type: "userPrivacySettingShowProfilePhoto"},
@@ -25158,7 +24983,6 @@ func (userPrivacySettingShowLinkInForwardedMessages *UserPrivacySettingShowLinkI
 }
 
 // NewUserPrivacySettingShowLinkInForwardedMessages creates a new UserPrivacySettingShowLinkInForwardedMessages
-//
 func NewUserPrivacySettingShowLinkInForwardedMessages() *UserPrivacySettingShowLinkInForwardedMessages {
 	userPrivacySettingShowLinkInForwardedMessagesTemp := UserPrivacySettingShowLinkInForwardedMessages{
 		tdCommon: tdCommon{Type: "userPrivacySettingShowLinkInForwardedMessages"},
@@ -25183,7 +25007,6 @@ func (userPrivacySettingShowPhoneNumber *UserPrivacySettingShowPhoneNumber) Mess
 }
 
 // NewUserPrivacySettingShowPhoneNumber creates a new UserPrivacySettingShowPhoneNumber
-//
 func NewUserPrivacySettingShowPhoneNumber() *UserPrivacySettingShowPhoneNumber {
 	userPrivacySettingShowPhoneNumberTemp := UserPrivacySettingShowPhoneNumber{
 		tdCommon: tdCommon{Type: "userPrivacySettingShowPhoneNumber"},
@@ -25208,7 +25031,6 @@ func (userPrivacySettingAllowChatInvites *UserPrivacySettingAllowChatInvites) Me
 }
 
 // NewUserPrivacySettingAllowChatInvites creates a new UserPrivacySettingAllowChatInvites
-//
 func NewUserPrivacySettingAllowChatInvites() *UserPrivacySettingAllowChatInvites {
 	userPrivacySettingAllowChatInvitesTemp := UserPrivacySettingAllowChatInvites{
 		tdCommon: tdCommon{Type: "userPrivacySettingAllowChatInvites"},
@@ -25233,7 +25055,6 @@ func (userPrivacySettingAllowCalls *UserPrivacySettingAllowCalls) MessageType() 
 }
 
 // NewUserPrivacySettingAllowCalls creates a new UserPrivacySettingAllowCalls
-//
 func NewUserPrivacySettingAllowCalls() *UserPrivacySettingAllowCalls {
 	userPrivacySettingAllowCallsTemp := UserPrivacySettingAllowCalls{
 		tdCommon: tdCommon{Type: "userPrivacySettingAllowCalls"},
@@ -25258,7 +25079,6 @@ func (userPrivacySettingAllowPeerToPeerCalls *UserPrivacySettingAllowPeerToPeerC
 }
 
 // NewUserPrivacySettingAllowPeerToPeerCalls creates a new UserPrivacySettingAllowPeerToPeerCalls
-//
 func NewUserPrivacySettingAllowPeerToPeerCalls() *UserPrivacySettingAllowPeerToPeerCalls {
 	userPrivacySettingAllowPeerToPeerCallsTemp := UserPrivacySettingAllowPeerToPeerCalls{
 		tdCommon: tdCommon{Type: "userPrivacySettingAllowPeerToPeerCalls"},
@@ -25283,7 +25103,6 @@ func (userPrivacySettingAllowFindingByPhoneNumber *UserPrivacySettingAllowFindin
 }
 
 // NewUserPrivacySettingAllowFindingByPhoneNumber creates a new UserPrivacySettingAllowFindingByPhoneNumber
-//
 func NewUserPrivacySettingAllowFindingByPhoneNumber() *UserPrivacySettingAllowFindingByPhoneNumber {
 	userPrivacySettingAllowFindingByPhoneNumberTemp := UserPrivacySettingAllowFindingByPhoneNumber{
 		tdCommon: tdCommon{Type: "userPrivacySettingAllowFindingByPhoneNumber"},
@@ -25489,7 +25308,6 @@ func (chatReportReasonSpam *ChatReportReasonSpam) MessageType() string {
 }
 
 // NewChatReportReasonSpam creates a new ChatReportReasonSpam
-//
 func NewChatReportReasonSpam() *ChatReportReasonSpam {
 	chatReportReasonSpamTemp := ChatReportReasonSpam{
 		tdCommon: tdCommon{Type: "chatReportReasonSpam"},
@@ -25514,7 +25332,6 @@ func (chatReportReasonViolence *ChatReportReasonViolence) MessageType() string {
 }
 
 // NewChatReportReasonViolence creates a new ChatReportReasonViolence
-//
 func NewChatReportReasonViolence() *ChatReportReasonViolence {
 	chatReportReasonViolenceTemp := ChatReportReasonViolence{
 		tdCommon: tdCommon{Type: "chatReportReasonViolence"},
@@ -25539,7 +25356,6 @@ func (chatReportReasonPornography *ChatReportReasonPornography) MessageType() st
 }
 
 // NewChatReportReasonPornography creates a new ChatReportReasonPornography
-//
 func NewChatReportReasonPornography() *ChatReportReasonPornography {
 	chatReportReasonPornographyTemp := ChatReportReasonPornography{
 		tdCommon: tdCommon{Type: "chatReportReasonPornography"},
@@ -25564,7 +25380,6 @@ func (chatReportReasonChildAbuse *ChatReportReasonChildAbuse) MessageType() stri
 }
 
 // NewChatReportReasonChildAbuse creates a new ChatReportReasonChildAbuse
-//
 func NewChatReportReasonChildAbuse() *ChatReportReasonChildAbuse {
 	chatReportReasonChildAbuseTemp := ChatReportReasonChildAbuse{
 		tdCommon: tdCommon{Type: "chatReportReasonChildAbuse"},
@@ -25589,7 +25404,6 @@ func (chatReportReasonCopyright *ChatReportReasonCopyright) MessageType() string
 }
 
 // NewChatReportReasonCopyright creates a new ChatReportReasonCopyright
-//
 func NewChatReportReasonCopyright() *ChatReportReasonCopyright {
 	chatReportReasonCopyrightTemp := ChatReportReasonCopyright{
 		tdCommon: tdCommon{Type: "chatReportReasonCopyright"},
@@ -25614,7 +25428,6 @@ func (chatReportReasonUnrelatedLocation *ChatReportReasonUnrelatedLocation) Mess
 }
 
 // NewChatReportReasonUnrelatedLocation creates a new ChatReportReasonUnrelatedLocation
-//
 func NewChatReportReasonUnrelatedLocation() *ChatReportReasonUnrelatedLocation {
 	chatReportReasonUnrelatedLocationTemp := ChatReportReasonUnrelatedLocation{
 		tdCommon: tdCommon{Type: "chatReportReasonUnrelatedLocation"},
@@ -25639,7 +25452,6 @@ func (chatReportReasonFake *ChatReportReasonFake) MessageType() string {
 }
 
 // NewChatReportReasonFake creates a new ChatReportReasonFake
-//
 func NewChatReportReasonFake() *ChatReportReasonFake {
 	chatReportReasonFakeTemp := ChatReportReasonFake{
 		tdCommon: tdCommon{Type: "chatReportReasonFake"},
@@ -25776,7 +25588,6 @@ func (fileTypeNone *FileTypeNone) MessageType() string {
 }
 
 // NewFileTypeNone creates a new FileTypeNone
-//
 func NewFileTypeNone() *FileTypeNone {
 	fileTypeNoneTemp := FileTypeNone{
 		tdCommon: tdCommon{Type: "fileTypeNone"},
@@ -25801,7 +25612,6 @@ func (fileTypeAnimation *FileTypeAnimation) MessageType() string {
 }
 
 // NewFileTypeAnimation creates a new FileTypeAnimation
-//
 func NewFileTypeAnimation() *FileTypeAnimation {
 	fileTypeAnimationTemp := FileTypeAnimation{
 		tdCommon: tdCommon{Type: "fileTypeAnimation"},
@@ -25826,7 +25636,6 @@ func (fileTypeAudio *FileTypeAudio) MessageType() string {
 }
 
 // NewFileTypeAudio creates a new FileTypeAudio
-//
 func NewFileTypeAudio() *FileTypeAudio {
 	fileTypeAudioTemp := FileTypeAudio{
 		tdCommon: tdCommon{Type: "fileTypeAudio"},
@@ -25851,7 +25660,6 @@ func (fileTypeDocument *FileTypeDocument) MessageType() string {
 }
 
 // NewFileTypeDocument creates a new FileTypeDocument
-//
 func NewFileTypeDocument() *FileTypeDocument {
 	fileTypeDocumentTemp := FileTypeDocument{
 		tdCommon: tdCommon{Type: "fileTypeDocument"},
@@ -25876,7 +25684,6 @@ func (fileTypePhoto *FileTypePhoto) MessageType() string {
 }
 
 // NewFileTypePhoto creates a new FileTypePhoto
-//
 func NewFileTypePhoto() *FileTypePhoto {
 	fileTypePhotoTemp := FileTypePhoto{
 		tdCommon: tdCommon{Type: "fileTypePhoto"},
@@ -25901,7 +25708,6 @@ func (fileTypeProfilePhoto *FileTypeProfilePhoto) MessageType() string {
 }
 
 // NewFileTypeProfilePhoto creates a new FileTypeProfilePhoto
-//
 func NewFileTypeProfilePhoto() *FileTypeProfilePhoto {
 	fileTypeProfilePhotoTemp := FileTypeProfilePhoto{
 		tdCommon: tdCommon{Type: "fileTypeProfilePhoto"},
@@ -25926,7 +25732,6 @@ func (fileTypeSecret *FileTypeSecret) MessageType() string {
 }
 
 // NewFileTypeSecret creates a new FileTypeSecret
-//
 func NewFileTypeSecret() *FileTypeSecret {
 	fileTypeSecretTemp := FileTypeSecret{
 		tdCommon: tdCommon{Type: "fileTypeSecret"},
@@ -25951,7 +25756,6 @@ func (fileTypeSecretThumbnail *FileTypeSecretThumbnail) MessageType() string {
 }
 
 // NewFileTypeSecretThumbnail creates a new FileTypeSecretThumbnail
-//
 func NewFileTypeSecretThumbnail() *FileTypeSecretThumbnail {
 	fileTypeSecretThumbnailTemp := FileTypeSecretThumbnail{
 		tdCommon: tdCommon{Type: "fileTypeSecretThumbnail"},
@@ -25976,7 +25780,6 @@ func (fileTypeSecure *FileTypeSecure) MessageType() string {
 }
 
 // NewFileTypeSecure creates a new FileTypeSecure
-//
 func NewFileTypeSecure() *FileTypeSecure {
 	fileTypeSecureTemp := FileTypeSecure{
 		tdCommon: tdCommon{Type: "fileTypeSecure"},
@@ -26001,7 +25804,6 @@ func (fileTypeSticker *FileTypeSticker) MessageType() string {
 }
 
 // NewFileTypeSticker creates a new FileTypeSticker
-//
 func NewFileTypeSticker() *FileTypeSticker {
 	fileTypeStickerTemp := FileTypeSticker{
 		tdCommon: tdCommon{Type: "fileTypeSticker"},
@@ -26026,7 +25828,6 @@ func (fileTypeThumbnail *FileTypeThumbnail) MessageType() string {
 }
 
 // NewFileTypeThumbnail creates a new FileTypeThumbnail
-//
 func NewFileTypeThumbnail() *FileTypeThumbnail {
 	fileTypeThumbnailTemp := FileTypeThumbnail{
 		tdCommon: tdCommon{Type: "fileTypeThumbnail"},
@@ -26051,7 +25852,6 @@ func (fileTypeUnknown *FileTypeUnknown) MessageType() string {
 }
 
 // NewFileTypeUnknown creates a new FileTypeUnknown
-//
 func NewFileTypeUnknown() *FileTypeUnknown {
 	fileTypeUnknownTemp := FileTypeUnknown{
 		tdCommon: tdCommon{Type: "fileTypeUnknown"},
@@ -26076,7 +25876,6 @@ func (fileTypeVideo *FileTypeVideo) MessageType() string {
 }
 
 // NewFileTypeVideo creates a new FileTypeVideo
-//
 func NewFileTypeVideo() *FileTypeVideo {
 	fileTypeVideoTemp := FileTypeVideo{
 		tdCommon: tdCommon{Type: "fileTypeVideo"},
@@ -26101,7 +25900,6 @@ func (fileTypeVideoNote *FileTypeVideoNote) MessageType() string {
 }
 
 // NewFileTypeVideoNote creates a new FileTypeVideoNote
-//
 func NewFileTypeVideoNote() *FileTypeVideoNote {
 	fileTypeVideoNoteTemp := FileTypeVideoNote{
 		tdCommon: tdCommon{Type: "fileTypeVideoNote"},
@@ -26126,7 +25924,6 @@ func (fileTypeVoiceNote *FileTypeVoiceNote) MessageType() string {
 }
 
 // NewFileTypeVoiceNote creates a new FileTypeVoiceNote
-//
 func NewFileTypeVoiceNote() *FileTypeVoiceNote {
 	fileTypeVoiceNoteTemp := FileTypeVoiceNote{
 		tdCommon: tdCommon{Type: "fileTypeVoiceNote"},
@@ -26151,7 +25948,6 @@ func (fileTypeWallpaper *FileTypeWallpaper) MessageType() string {
 }
 
 // NewFileTypeWallpaper creates a new FileTypeWallpaper
-//
 func NewFileTypeWallpaper() *FileTypeWallpaper {
 	fileTypeWallpaperTemp := FileTypeWallpaper{
 		tdCommon: tdCommon{Type: "fileTypeWallpaper"},
@@ -26351,7 +26147,6 @@ func (networkTypeNone *NetworkTypeNone) MessageType() string {
 }
 
 // NewNetworkTypeNone creates a new NetworkTypeNone
-//
 func NewNetworkTypeNone() *NetworkTypeNone {
 	networkTypeNoneTemp := NetworkTypeNone{
 		tdCommon: tdCommon{Type: "networkTypeNone"},
@@ -26376,7 +26171,6 @@ func (networkTypeMobile *NetworkTypeMobile) MessageType() string {
 }
 
 // NewNetworkTypeMobile creates a new NetworkTypeMobile
-//
 func NewNetworkTypeMobile() *NetworkTypeMobile {
 	networkTypeMobileTemp := NetworkTypeMobile{
 		tdCommon: tdCommon{Type: "networkTypeMobile"},
@@ -26401,7 +26195,6 @@ func (networkTypeMobileRoaming *NetworkTypeMobileRoaming) MessageType() string {
 }
 
 // NewNetworkTypeMobileRoaming creates a new NetworkTypeMobileRoaming
-//
 func NewNetworkTypeMobileRoaming() *NetworkTypeMobileRoaming {
 	networkTypeMobileRoamingTemp := NetworkTypeMobileRoaming{
 		tdCommon: tdCommon{Type: "networkTypeMobileRoaming"},
@@ -26426,7 +26219,6 @@ func (networkTypeWiFi *NetworkTypeWiFi) MessageType() string {
 }
 
 // NewNetworkTypeWiFi creates a new NetworkTypeWiFi
-//
 func NewNetworkTypeWiFi() *NetworkTypeWiFi {
 	networkTypeWiFiTemp := NetworkTypeWiFi{
 		tdCommon: tdCommon{Type: "networkTypeWiFi"},
@@ -26451,7 +26243,6 @@ func (networkTypeOther *NetworkTypeOther) MessageType() string {
 }
 
 // NewNetworkTypeOther creates a new NetworkTypeOther
-//
 func NewNetworkTypeOther() *NetworkTypeOther {
 	networkTypeOtherTemp := NetworkTypeOther{
 		tdCommon: tdCommon{Type: "networkTypeOther"},
@@ -26708,7 +26499,6 @@ func (connectionStateWaitingForNetwork *ConnectionStateWaitingForNetwork) Messag
 }
 
 // NewConnectionStateWaitingForNetwork creates a new ConnectionStateWaitingForNetwork
-//
 func NewConnectionStateWaitingForNetwork() *ConnectionStateWaitingForNetwork {
 	connectionStateWaitingForNetworkTemp := ConnectionStateWaitingForNetwork{
 		tdCommon: tdCommon{Type: "connectionStateWaitingForNetwork"},
@@ -26733,7 +26523,6 @@ func (connectionStateConnectingToProxy *ConnectionStateConnectingToProxy) Messag
 }
 
 // NewConnectionStateConnectingToProxy creates a new ConnectionStateConnectingToProxy
-//
 func NewConnectionStateConnectingToProxy() *ConnectionStateConnectingToProxy {
 	connectionStateConnectingToProxyTemp := ConnectionStateConnectingToProxy{
 		tdCommon: tdCommon{Type: "connectionStateConnectingToProxy"},
@@ -26758,7 +26547,6 @@ func (connectionStateConnecting *ConnectionStateConnecting) MessageType() string
 }
 
 // NewConnectionStateConnecting creates a new ConnectionStateConnecting
-//
 func NewConnectionStateConnecting() *ConnectionStateConnecting {
 	connectionStateConnectingTemp := ConnectionStateConnecting{
 		tdCommon: tdCommon{Type: "connectionStateConnecting"},
@@ -26783,7 +26571,6 @@ func (connectionStateUpdating *ConnectionStateUpdating) MessageType() string {
 }
 
 // NewConnectionStateUpdating creates a new ConnectionStateUpdating
-//
 func NewConnectionStateUpdating() *ConnectionStateUpdating {
 	connectionStateUpdatingTemp := ConnectionStateUpdating{
 		tdCommon: tdCommon{Type: "connectionStateUpdating"},
@@ -26808,7 +26595,6 @@ func (connectionStateReady *ConnectionStateReady) MessageType() string {
 }
 
 // NewConnectionStateReady creates a new ConnectionStateReady
-//
 func NewConnectionStateReady() *ConnectionStateReady {
 	connectionStateReadyTemp := ConnectionStateReady{
 		tdCommon: tdCommon{Type: "connectionStateReady"},
@@ -26833,7 +26619,6 @@ func (topChatCategoryUsers *TopChatCategoryUsers) MessageType() string {
 }
 
 // NewTopChatCategoryUsers creates a new TopChatCategoryUsers
-//
 func NewTopChatCategoryUsers() *TopChatCategoryUsers {
 	topChatCategoryUsersTemp := TopChatCategoryUsers{
 		tdCommon: tdCommon{Type: "topChatCategoryUsers"},
@@ -26858,7 +26643,6 @@ func (topChatCategoryBots *TopChatCategoryBots) MessageType() string {
 }
 
 // NewTopChatCategoryBots creates a new TopChatCategoryBots
-//
 func NewTopChatCategoryBots() *TopChatCategoryBots {
 	topChatCategoryBotsTemp := TopChatCategoryBots{
 		tdCommon: tdCommon{Type: "topChatCategoryBots"},
@@ -26883,7 +26667,6 @@ func (topChatCategoryGroups *TopChatCategoryGroups) MessageType() string {
 }
 
 // NewTopChatCategoryGroups creates a new TopChatCategoryGroups
-//
 func NewTopChatCategoryGroups() *TopChatCategoryGroups {
 	topChatCategoryGroupsTemp := TopChatCategoryGroups{
 		tdCommon: tdCommon{Type: "topChatCategoryGroups"},
@@ -26908,7 +26691,6 @@ func (topChatCategoryChannels *TopChatCategoryChannels) MessageType() string {
 }
 
 // NewTopChatCategoryChannels creates a new TopChatCategoryChannels
-//
 func NewTopChatCategoryChannels() *TopChatCategoryChannels {
 	topChatCategoryChannelsTemp := TopChatCategoryChannels{
 		tdCommon: tdCommon{Type: "topChatCategoryChannels"},
@@ -26933,7 +26715,6 @@ func (topChatCategoryInlineBots *TopChatCategoryInlineBots) MessageType() string
 }
 
 // NewTopChatCategoryInlineBots creates a new TopChatCategoryInlineBots
-//
 func NewTopChatCategoryInlineBots() *TopChatCategoryInlineBots {
 	topChatCategoryInlineBotsTemp := TopChatCategoryInlineBots{
 		tdCommon: tdCommon{Type: "topChatCategoryInlineBots"},
@@ -26958,7 +26739,6 @@ func (topChatCategoryCalls *TopChatCategoryCalls) MessageType() string {
 }
 
 // NewTopChatCategoryCalls creates a new TopChatCategoryCalls
-//
 func NewTopChatCategoryCalls() *TopChatCategoryCalls {
 	topChatCategoryCallsTemp := TopChatCategoryCalls{
 		tdCommon: tdCommon{Type: "topChatCategoryCalls"},
@@ -26983,7 +26763,6 @@ func (topChatCategoryForwardChats *TopChatCategoryForwardChats) MessageType() st
 }
 
 // NewTopChatCategoryForwardChats creates a new TopChatCategoryForwardChats
-//
 func NewTopChatCategoryForwardChats() *TopChatCategoryForwardChats {
 	topChatCategoryForwardChatsTemp := TopChatCategoryForwardChats{
 		tdCommon: tdCommon{Type: "topChatCategoryForwardChats"},
@@ -27195,7 +26974,6 @@ func (suggestedActionEnableArchiveAndMuteNewChats *SuggestedActionEnableArchiveA
 }
 
 // NewSuggestedActionEnableArchiveAndMuteNewChats creates a new SuggestedActionEnableArchiveAndMuteNewChats
-//
 func NewSuggestedActionEnableArchiveAndMuteNewChats() *SuggestedActionEnableArchiveAndMuteNewChats {
 	suggestedActionEnableArchiveAndMuteNewChatsTemp := SuggestedActionEnableArchiveAndMuteNewChats{
 		tdCommon: tdCommon{Type: "suggestedActionEnableArchiveAndMuteNewChats"},
@@ -27220,7 +26998,6 @@ func (suggestedActionCheckPhoneNumber *SuggestedActionCheckPhoneNumber) MessageT
 }
 
 // NewSuggestedActionCheckPhoneNumber creates a new SuggestedActionCheckPhoneNumber
-//
 func NewSuggestedActionCheckPhoneNumber() *SuggestedActionCheckPhoneNumber {
 	suggestedActionCheckPhoneNumberTemp := SuggestedActionCheckPhoneNumber{
 		tdCommon: tdCommon{Type: "suggestedActionCheckPhoneNumber"},
@@ -27245,7 +27022,6 @@ func (suggestedActionSeeTicksHint *SuggestedActionSeeTicksHint) MessageType() st
 }
 
 // NewSuggestedActionSeeTicksHint creates a new SuggestedActionSeeTicksHint
-//
 func NewSuggestedActionSeeTicksHint() *SuggestedActionSeeTicksHint {
 	suggestedActionSeeTicksHintTemp := SuggestedActionSeeTicksHint{
 		tdCommon: tdCommon{Type: "suggestedActionSeeTicksHint"},
@@ -27393,7 +27169,6 @@ func (textParseModeHTML *TextParseModeHTML) MessageType() string {
 }
 
 // NewTextParseModeHTML creates a new TextParseModeHTML
-//
 func NewTextParseModeHTML() *TextParseModeHTML {
 	textParseModeHTMLTemp := TextParseModeHTML{
 		tdCommon: tdCommon{Type: "textParseModeHTML"},
@@ -31550,7 +31325,6 @@ func (logStreamDefault *LogStreamDefault) MessageType() string {
 }
 
 // NewLogStreamDefault creates a new LogStreamDefault
-//
 func NewLogStreamDefault() *LogStreamDefault {
 	logStreamDefaultTemp := LogStreamDefault{
 		tdCommon: tdCommon{Type: "logStreamDefault"},
@@ -31609,7 +31383,6 @@ func (logStreamEmpty *LogStreamEmpty) MessageType() string {
 }
 
 // NewLogStreamEmpty creates a new LogStreamEmpty
-//
 func NewLogStreamEmpty() *LogStreamEmpty {
 	logStreamEmptyTemp := LogStreamEmpty{
 		tdCommon: tdCommon{Type: "logStreamEmpty"},
